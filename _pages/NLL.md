@@ -8,7 +8,7 @@ nav: true
 
 <!--, proposed by Professor <a href="https://www.cs.utexas.edu/~mooney/">Raymond Mooney</a>-->
 
-I had been organizing the UT Austin Natural Language Learning Reading Group from Jan 2023 to May 2024.
+I had been organizing the UT Austin Natural Language Learning Reading Group from Jan 2023 to May 2024. The schedule of our past meetings can be found here.
 
 <strong>Location</strong>: GDC 3.816 / <a href="https://utexas.zoom.us/j/2413159498">Zoom</a><br>
 <strong>Presentation Signup Sheet</strong>: <a href="https://docs.google.com/spreadsheets/d/17y7wGwBkSCq4ZCLCYVTyCmM2m_zGGA6eGmTNPUc6UM4/edit?usp=sharing">here</a>
