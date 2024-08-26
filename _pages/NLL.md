@@ -13,26 +13,29 @@ I had been organizing the UT Austin Natural Language Learning Reading Group from
 <strong>Location</strong>: GDC 3.816 / <a href="https://utexas.zoom.us/j/2413159498">Zoom</a><br>
 <strong>Presentation Signup Sheet</strong>: <a href="https://docs.google.com/spreadsheets/d/17y7wGwBkSCq4ZCLCYVTyCmM2m_zGGA6eGmTNPUc6UM4/edit?usp=sharing">here</a>
 
-<h2>Spring 2024</h2>
-<ul>
-   <li><strong>Jan 26th, 2024</strong></li>
-   Venkat will give a practice job talk.
 
-   <li><strong>Feb 9th, 2024</strong></li>
-   Anubrata will give a practice job talk.
+<details>
+   <summary><strong>Spring 2024</strong></summary>
+   <ul>
+      <li><strong>Jan 26th, 2024</strong></li>
+      Venkat will give a practice job talk.
 
-   <li><strong>Feb 23rd, 2024: Venkat is leading the discussion</strong></li>
-   We will be reading <a href="https://arxiv.org/pdf/2310.18168.pdf">Personas as a way to Model Truthfulness in Language Models</a>
+      <li><strong>Feb 9th, 2024</strong></li>
+      Anubrata will give a practice job talk.
 
-   <li><strong>March 8th, 2024</strong></li>
-   We will be reading <a href="https://arxiv.org/pdf/2402.12530.pdf">Parallel Structures in Pre-training Data Yield In-Context Learning</a>
+      <li><strong>Feb 23rd, 2024: Venkat is leading the discussion</strong></li>
+      We will be reading <a href="https://arxiv.org/pdf/2310.18168.pdf">Personas as a way to Model Truthfulness in Language Models</a>
 
-   <li><strong>March 22nd, 2024: Juan Diego is leading the discussion</strong></li>
-   We will be reading <a href="https://arxiv.org/pdf/2402.13956.pdf">Can You Learn Semantics Through Next-Word Prediction? The Case of Entailment</a>
+      <li><strong>March 8th, 2024</strong></li>
+      We will be reading <a href="https://arxiv.org/pdf/2402.12530.pdf">Parallel Structures in Pre-training Data Yield In-Context Learning</a>
 
-   <li><strong>April 19th, 2024: Prof. Sasha Rush is giving a talk on State Space Models</strong></li>
-   See <a href="https://srush.github.io/annotated-s4/#part-1-state-space-models">this blog post</a> for an overview.
-</ul>
+      <li><strong>March 22nd, 2024: Juan Diego is leading the discussion</strong></li>
+      We will be reading <a href="https://arxiv.org/pdf/2402.13956.pdf">Can You Learn Semantics Through Next-Word Prediction? The Case of Entailment</a>
+
+      <li><strong>April 19th, 2024: Prof. Sasha Rush is giving a talk on State Space Models</strong></li>
+      See <a href="https://srush.github.io/annotated-s4/#part-1-state-space-models">this blog post</a> for an overview.
+   </ul>
+</details>
 
 <details>
    <summary><strong>Fall 2023</strong></summary>
