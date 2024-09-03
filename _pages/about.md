@@ -57,8 +57,8 @@ I am a 4th year Ph.D. student in Computational Linguistics at <a href="https://w
       &#8259; Hosted by the Responsible and Inclusive Technologies Research Group
       <br>
       &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://moonfolk.github.io/">Mikhail Yurochkin</a>
-      <!---- <br>
-      &#8259; Received return internship offer for Summer 2025 -->
+      <br>
+      &#8259; Received return internship offer for Summer 2025
     </div>
   </div>
 </div>
