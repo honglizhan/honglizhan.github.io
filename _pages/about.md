@@ -7,8 +7,7 @@ description: honglizhan@utexas.edu
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>Office: RLP</p>
+  address: 
     
 selected_papers: true # includes a list of papers marked as "selected={true}"
 news: true # includes a list of news items
