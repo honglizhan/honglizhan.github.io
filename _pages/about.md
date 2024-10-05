@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Profile picture taken at the The Art Institute of Chicago</p>
+    <p>Office: RLP</p>
     
 selected_papers: true # includes a list of papers marked as "selected={true}"
 news: true # includes a list of news items
