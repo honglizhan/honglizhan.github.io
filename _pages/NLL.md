@@ -8,20 +8,20 @@ nav: true
 
 <!--, proposed by Professor <a href="https://www.cs.utexas.edu/~mooney/">Raymond Mooney</a>-->
 
-I am co-hosting the UT Austin Natural Language Learning Reading Group with Jierui Li. The schedule of our meetings can be found here.
+I am co-hosting the UT Austin Natural Language Learning Reading Group with Jierui Li, and we regularly invite folks to present their work in the sessions. The schedule of our meetings can be found here.
 
-<!-- <strong>Location</strong>: GDC 3.816 / <a href="https://utexas.zoom.us/j/2413159498">Zoom</a><br>
-<strong>Presentation Signup Sheet</strong>: <a href="https://docs.google.com/spreadsheets/d/17y7wGwBkSCq4ZCLCYVTyCmM2m_zGGA6eGmTNPUc6UM4/edit?usp=sharing">here</a> -->
+<strong>Location</strong>: GDC 3.816 / <a href="https://utexas.zoom.us/j/2413159498">Zoom</a><br>
+<!-- <strong>Presentation Signup Sheet</strong>: <a href="https://docs.google.com/spreadsheets/d/17y7wGwBkSCq4ZCLCYVTyCmM2m_zGGA6eGmTNPUc6UM4/edit?usp=sharing">here</a> -->
 
-<strong>Fall 2024</strong>
-Here's the schedule of 2 external talks that we are organizing:
-   <ul>
-      <li><strong>Nov 8th, 2024</strong></li>
-      Invited talk from Ryan Liu
+<summary><strong>Fall 2024</strong></summary>
+Here's the schedule of the external talks that we are organizing this semester:
+<ul>
+   <li><strong>Nov 8th, 2024</strong></li>
+   Invited talk from Ryan Liu
 
-      <li><strong>Dec 6th, 2024</strong></li>
-      Invited talk from Bruce W. Lee
-   </ul>
+   <li><strong>Dec 6th, 2024</strong></li>
+   Invited talk from Bruce W. Lee
+</ul>
 
 <details>
    <summary><strong>Spring 2024</strong></summary>
