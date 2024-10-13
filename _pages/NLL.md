@@ -13,7 +13,7 @@ I am co-hosting the UT Austin Natural Language Learning Reading Group with Jieru
 <strong>Location</strong>: GDC 3.816 / <a href="https://utexas.zoom.us/j/2413159498">Zoom</a><br>
 <!-- <strong>Presentation Signup Sheet</strong>: <a href="https://docs.google.com/spreadsheets/d/17y7wGwBkSCq4ZCLCYVTyCmM2m_zGGA6eGmTNPUc6UM4/edit?usp=sharing">here</a> -->
 
-<details>
+<details open>
    <summary><strong>Fall 2024</strong></summary>
    Here's the schedule of the external talks that we are organizing this semester:
    <ul>
@@ -102,3 +102,10 @@ I am co-hosting the UT Austin Natural Language Learning Reading Group with Jieru
       <li><strong>April 17th, 2023: Hongli, Venkat, and Jierui will give research updates</strong></li>
    </ul>
 </details>
+
+
+<style>
+details[open] {
+  display: block;
+}
+</style>
