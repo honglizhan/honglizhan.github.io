@@ -2,7 +2,7 @@
 layout: page
 permalink: /NLL/
 title: UT NLL
-description: UT Austin Natural Language Learning Reading Group
+description: UT Austin Natural Language Learning Reading Group (see past meetings before 2021 <a href="https://www.cs.utexas.edu/~ml/nll/">here</a>)
 nav: true
 ---
 
