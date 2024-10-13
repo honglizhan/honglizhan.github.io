@@ -21,7 +21,7 @@ I am co-hosting the UT Austin Natural Language Learning Reading Group with Jieru
       Invited talk from Ryan Liu
 
       <li><strong>Dec 6th, 2024</strong></li>
-      Invited talk from Bruce W. Lee
+      Invited talk from Bruce W. Lee: <a href="https://arxiv.org/pdf/2409.05907">Programming Refusal with Conditional Activation Steering</a>
    </ul>
 </details>
 
