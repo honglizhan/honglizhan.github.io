@@ -19,6 +19,8 @@ social: true  # includes social icons at the bottom of the page
 
 I am a 4th year Ph.D. student in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. The ambition of my research is to build emotionally intelligent AI systems in a broader social context.
 
+Casually, I go by Henry.
+
 <div class="education">
   <h2>Education</h2>
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
