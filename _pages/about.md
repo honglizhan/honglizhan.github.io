@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 <blockquote style="display: inline-block; margin: 0; padding: 10px; background-color: #ecf0f1; font-style: italic; font-size: 1.1em;"><strong><em>Arrogance is a sign of ignorance.</em></strong></blockquote>
 
-I am a 4th year Ph.D. student in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. The ambition of my research is to build emotionally intelligent AI systems in a broader social context.
+I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. The ambition of my research is to build emotionally intelligent AI systems in a broader social context.
 
 Casually, I go by Henry.
 
