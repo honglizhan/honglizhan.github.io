@@ -3,9 +3,9 @@ layout: page
 title: Misc
 permalink: /misc/
 description: 
-nav: true
+nav: false
 display_categories: [fun]
-horizontal: false
+horizontal: True
 
 
 ---
