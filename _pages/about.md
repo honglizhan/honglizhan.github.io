@@ -45,7 +45,7 @@ Casually, I go by Henry.
     </div>
 </div>
 
-<br/>
+<br/><br/>
 
 <div class="education">
   <h2>Industry Experience</h2>
