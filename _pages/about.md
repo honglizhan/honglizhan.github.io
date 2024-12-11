@@ -23,6 +23,8 @@ Casually, I go by Henry.
 
 Find me on Bluesky <a href="https://bsky.app/profile/hongli-zhan.bsky.social">@hongli-zhan.bsky.social</a>
 
+<br style="line-height: 0.5;">
+
 <div class="education">
   <h2>Education</h2>
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
