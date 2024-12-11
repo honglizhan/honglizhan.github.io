@@ -8,8 +8,7 @@ middle_name:
 last_name: Zhan
 chinese_name: 詹弘立
 email: HongliZhan@utexas.edu
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hongli Zhan | Ph.D. Candidate in Computational Linguistics | UT Austin
+description: Hongli Zhan | Ph.D. Candidate in Computational Linguistics | UT Austin
 footer_text: Powered by Jekyll with al-folio theme. # Computational Linguist In-Training, Cellist Since 4-Years-Old. #>
   
 
