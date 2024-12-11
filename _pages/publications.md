@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description:
-nav: false
+nav: true
 ---
 \* Denotes equal contributions.
 
