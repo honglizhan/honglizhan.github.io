@@ -2,13 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Hongli Zhan | Ph.D. Candidate in Computational Linguistics | UT Austin # the website title (if blank, full name will be used instead)
 first_name: Hongli
 middle_name: 
 last_name: Zhan
 chinese_name: 詹弘立
 email: HongliZhan@utexas.edu
-description: Hongli Zhan | Ph.D. Candidate in Computational Linguistics | UT Austin
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Hongli Zhan | Ph.D. Candidate in Computational Linguistics | UT Austin
 footer_text: Powered by Jekyll with al-folio theme. # Computational Linguist In-Training, Cellist Since 4-Years-Old. #>
   
 
