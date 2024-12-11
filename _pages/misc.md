@@ -5,7 +5,7 @@ permalink: /misc/
 description: 
 nav: true
 display_categories: [fun]
-horizontal: True
+horizontal: false
 
 
 ---

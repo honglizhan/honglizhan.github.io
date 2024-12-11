@@ -3,7 +3,7 @@ layout: page
 permalink: /NLL/
 title: UT NLL
 description: UT Austin Natural Language Learning Reading Group (see past meetings before 2021 <a href="https://www.cs.utexas.edu/~ml/nll/">[here]</a>)
-nav: true
+nav: false
 ---
 
 <!--, proposed by Professor <a href="https://www.cs.utexas.edu/~mooney/">Raymond Mooney</a>-->
