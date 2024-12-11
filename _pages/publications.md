@@ -7,6 +7,14 @@ nav: true
 ---
 \* Denotes equal contributions.
 
+<!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
-  {% bibliography -f papers %}
+
+{% bibliography %}
+
 </div>
