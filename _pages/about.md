@@ -21,7 +21,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
 
 Casually, I go by Henry.
 
-<br/>
+<span style="line-height: 0.6;">&nbsp;</span><br>
 
 <div class="education">
   <h2>Education</h2>
