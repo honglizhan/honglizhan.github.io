@@ -1,7 +1,7 @@
 "Sosea":
   - firstname: ["Tiberiu", "T."]
     url: https://www.tsosea.com/
-    
+
 "Li":
   - firstname: ["Junyi Jessy", "J. J.", "Junyi", "Jessy"]
     url: https://jessyli.com/
@@ -25,3 +25,15 @@
 "Zheng":
   - firstname: ["Allen", "A."]
     url: https://www.linkedin.com/in/allen-x-zheng/
+
+"Yurochkin":
+  - firstname: ["Mikhail", "M."]
+    url: https://moonfolk.github.io/
+
+"Azmat":
+  - firstname: ["Muneeza", "M."]
+  url: https://scholar.google.com.pk/citations?user=DIo7W_IAAAAJ&hl=en
+
+"Horesh":
+  - firstname: ["Raya", "R."]
+  url: https://scholar.google.com/citations?user=jAmSI-cAAAAJ&hl=en
