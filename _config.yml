@@ -4,13 +4,13 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Hongli
-middle_name: 
+middle_name:
 last_name: Zhan
 chinese_name: 詹弘立
 email: HongliZhan@utexas.edu
 description: Hongli Zhan | Ph.D. Candidate in Computational Linguistics | UT Austin
 footer_text: Powered by Jekyll with al-folio theme. # Computational Linguist In-Training, Cellist Since 4-Years-Old. #>
-  
+
 
 icon: ⚆ # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -47,7 +47,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-#github_username: honglizhan # your GitHub user name
+github_username: honglizhan # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: HongliZhan # your Twitter handle
 linkedin_username: hongli-zhan-761291198 # your LinkedIn user name
@@ -75,7 +75,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: CV  # your blog must have a name for it to show up in the nav bar
-blog_description: 
+blog_description:
 permalink: /CV/
 
 # Pagination
