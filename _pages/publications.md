@@ -19,4 +19,4 @@ nav: true
 
 <hr>
 
-Additionally, you can find here my [first-year paper](/assets/ut_austin_phd_papers/Zhan%202022%20FYP%20Emotion%20Trigger%20Summarization.pdf), [second-year paper](/assets/ut_austin_phd_papers/Zhan%202023%20SYP%20Emotion%20Appraisal.pdf), the [qualifying paper](/assets/ut_austin_phd_papers/Zhan%202024%20QP%20Cognitive%20Reappraisal.pdf), as well as my [prospectus]() for my PhD at UT Austin.
+Additionally, you can find here my [first-year paper](/assets/ut_austin_phd_papers/Zhan%202022%20FYP%20Emotion%20Trigger%20Summarization.pdf), [second-year paper](/assets/ut_austin_phd_papers/Zhan%202023%20SYP%20Emotion%20Appraisal.pdf), the [qualifying paper](/assets/ut_austin_phd_papers/Zhan%202024%20QP%20Cognitive%20Reappraisal.pdf), as well as my [prospectus](/assets/ut_austin_phd_papers/Zhan%202025%20Prospectus.pdf) for my PhD at UT Austin.
