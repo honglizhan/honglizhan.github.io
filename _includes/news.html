@@ -1,7 +1,14 @@
-<div class="news" style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background: #f9f9f9;">
+<div class="news" style="padding: 10px;">
   <h2>News</h2>
   {% if site.news %}
-    <div class="limited-news" style="max-height: 600px; overflow: hidden;">
+    <div class="limited-news" style="
+      max-height: 600px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 15px;
+      background: #f9f9f9;
+    ">
       <table class="table table-sm table-borderless mb-0">
         {% assign news = site.news | reverse %}
         {% for item in news %}
