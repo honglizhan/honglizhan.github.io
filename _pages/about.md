@@ -69,6 +69,18 @@ Casually, I go by Henry.
 <div class="education">
   <h2>Industry Experience</h2>
   <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
+
+    <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
+      <div>
+        <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2025
+        <br>
+        IBM Thomas J. Watson Research Center, Yorktown Heights, NY
+      </div>
+    </div>
+
+    <br/>
+
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
       <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2024
