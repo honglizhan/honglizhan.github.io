@@ -1,24 +1,10 @@
-<div class="news">
+<div class="news" style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background: #f9f9f9;">
   <h2>News</h2>
   {% if site.news %}
-    <div class="scrollable-news" style="max-height: 300px; overflow-y: auto;">
-      <table class="table table-sm table-borderless">
+    <div class="limited-news" style="max-height: 600px; overflow: hidden;">
+      <table class="table table-sm table-borderless mb-0">
         {% assign news = site.news | reverse %}
-        {% assign visible_news = news | slice: 0, 3 %}
-        {% for item in visible_news %}
-          <tr>
-            <th scope="row" style="width: 15%;">{{ item.date | date: "%b %-d, %Y" }}</th>
-            <td style="width: 85%;">
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
-            </td>
-          </tr>
-        {% endfor %}
-        {% assign remaining_news = news | slice: 3, news.size %}
-        {% for item in remaining_news %}
+        {% for item in news %}
           <tr>
             <th scope="row" style="width: 15%;">{{ item.date | date: "%b %-d, %Y" }}</th>
             <td style="width: 85%;">
