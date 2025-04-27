@@ -15,12 +15,10 @@
         {% for item in news %}
           <tr style="height: 2.5em;">
             <th scope="row" style="
-                width: 15%;
-                word-break: break-word;
-                white-space: normal;
-                overflow-wrap: break-word;
+                width: 90px;
+                white-space: nowrap;
             ">{{ item.date | date: "%Y/%m/%d" }}</th>
-            <td style="width: 85%;">
+            <td style="width: auto;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
