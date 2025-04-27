@@ -47,7 +47,9 @@ Casually, I go by Henry.
         <br>
         <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
         <br>
-        &#8259; Advisor: Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>
+        &#8259; Advisor: Dr. <a href="https://jessyli.com/">Junyi Jessy Li</a>
+        <br>
+        &#8259; Committee: Dr. <a href="https://jessyli.com/">Junyi Jessy Li</a>, Dr. <a href="https://cascoglab.psy.utexas.edu/desmond/">Desmond C. Ong</a>, Dr. <a href="https://liberalarts.utexas.edu/linguistics/faculty/dib97">David I. Beaver</a>, Dr. <a href="https://mahowak.github.io/">Kyle Mahowald</a>
       </div>
     </div>
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
