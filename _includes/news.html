@@ -14,7 +14,7 @@
         {% assign news = site.news | reverse %}
         {% for item in news %}
           <tr style="height: 2.5em;">
-            <th scope="row" style="width: 15%;">{{ item.date | date: "%b %-d, %Y" }}</th>
+            <th scope="row" style="width: 15%;">{{ item.date | date: "%Y/%m/%d" }}</th>
             <td style="width: 85%;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
