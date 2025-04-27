@@ -38,6 +38,7 @@ Casually, I go by Henry.
 
 <div style="margin-top: 30px;"></div>
 
+<!-- Education -->
 <div class="education">
   <h2>Education</h2>
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
@@ -66,21 +67,22 @@ Casually, I go by Henry.
 
 <br/>
 
+<!-- Industry Experience -->
 <div class="education">
   <h2>Industry Experience</h2>
+
+  <!-- Summer 2025 @IBM Research -->
   <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
-
-    <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
-      <div>
-        <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2025
-        <br>
-        IBM Thomas J. Watson Research Center, Yorktown Heights, NY
-      </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
+    <div>
+      <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2025
+      <br>
+      IBM Thomas J. Watson Research Center, Yorktown Heights, NY
     </div>
+  </div>
 
-    <br/>
-
+  <!-- Summer 2024 @IBM Research -->
+  <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
       <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2024
@@ -96,4 +98,5 @@ Casually, I go by Henry.
       &#8259; Work resulted in a first-authored patent and a first-authored paper
     </div>
   </div>
+
 </div>
