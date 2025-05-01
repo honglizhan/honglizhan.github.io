@@ -32,7 +32,9 @@ social: true  # includes social icons at the bottom of the page
 
 <blockquote style="display: inline-block; margin: 0; padding: 10px; background-color: #ecf0f1; font-style: italic; font-size: 1.1em;"><strong><em>Arrogance is a sign of ignorance.</em></strong></blockquote>
 
-I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. The ambition of my research is to build emotionally intelligent AI systems in a broader social context (see my first-authored publications at [EMNLP 2022] (https://aclanthology.org/2022.emnlp-main.642/), [ACL 2023](https://aclanthology.org/2023.acl-long.531/), [EMNLP 2023 Findings](https://aclanthology.org/2023.findings-emnlp.962/), [COLM 2024](https://openreview.net/forum?id=yK8MT91dQY#discussion)). During my internship in the industry, I've also worked on aligning language models (see my recent first-authored work at [ICML 2025](https://arxiv.org/abs/2502.03397)).
+I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>.
+
+The ambition of my research is to build emotionally intelligent AI systems in a broader social context (see my first-authored publications at [EMNLP 2022](https://aclanthology.org/2022.emnlp-main.642/), [ACL 2023](https://aclanthology.org/2023.acl-long.531/), [EMNLP 2023 Findings](https://aclanthology.org/2023.findings-emnlp.962/), [COLM 2024](https://openreview.net/forum?id=yK8MT91dQY#discussion)). During my internship in the industry, I've also worked on aligning language models (see my recent first-authored work at [ICML 2025](https://arxiv.org/abs/2502.03397)).
 
 Casually, I go by Henry.
 
