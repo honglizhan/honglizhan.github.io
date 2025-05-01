@@ -93,7 +93,7 @@ Casually, I go by Henry.
       <br>
       <!-- &#8259; Received return internship offer for Summer 2025
       <br> -->
-      &#8259; Work resulted in a first-authored patent and a first-authored paper
+      &#8259; Work resulted in a first-authored patent and a first-authored paper at ICML 2025
     </div>
   </div>
 
