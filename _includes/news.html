@@ -14,15 +14,12 @@
         {% assign news = site.news | reverse %}
         {% for item in news %}
           <tr style="height: 2.5em;">
-            <th scope="row" style="
-                width: 90px;
-                white-space: nowrap;
-            ">{{ item.date | date: "%Y/%m/%d" }}</th>
-            <td style="width: auto;">
+            <td style="white-space: normal;">
+              {% assign formatted_date = item.date | date: "%Y/%m/%d" %}
               {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                [{{ formatted_date }}] {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                [{{ formatted_date }}] <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
             </td>
           </tr>
@@ -48,12 +45,7 @@
       const fadeOverlay = document.getElementById('fade-overlay');
 
       newsBox.addEventListener('scroll', () => {
-        // If scrolled more than 10px, hide fade
-        if (newsBox.scrollTop > 10) {
-          fadeOverlay.style.opacity = '0';
-        } else {
-          fadeOverlay.style.opacity = '1';
-        }
+        fadeOverlay.style.opacity = newsBox.scrollTop > 10 ? '0' : '1';
       });
     </script>
   {% else %}
