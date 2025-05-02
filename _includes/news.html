@@ -17,9 +17,9 @@
             <td style="white-space: normal;">
               {% assign formatted_date = item.date | date: "%Y/%m/%d" %}
               {% if item.inline %}
-                [{{ formatted_date }}] {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                <strong>[{{ formatted_date }}]</strong> {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                [{{ formatted_date }}] <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                <strong>[{{ formatted_date }}]</strong> <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
             </td>
           </tr>
