@@ -6,10 +6,11 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">
-     {% if site.title == "blank" %}{{ site.first_name }} <span class="font-weight-bold">{{ site.last_name }}</span> | {{ site.chinese_name }}{% else %}{{ site.title }}{% endif %}
+      {{ site.first_name }} <span class="font-weight-bold">{{ site.last_name }}</span> | {{ site.chinese_name }}
     </h1>
-     <p class="desc">{{ page.description }}</p>
+    <p class="desc">{{ page.description }}</p>
   </header>
+
 
   <article>
     {% if page.profile %}
