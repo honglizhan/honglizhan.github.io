@@ -32,12 +32,15 @@ social: true  # includes social icons at the bottom of the page
 
 <blockquote style="display: inline-block; margin: 0; padding: 10px; background-color: #ecf0f1; font-style: italic; font-size: 1.1em;"><strong><em>Arrogance is a sign of ignorance.</em></strong></blockquote>
 
-I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. The ambition of my research is to build emotionally intelligent AI systems in a broader social context.
+I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>.
+
+The ambition of my Ph.D. research is to build emotionally intelligent AI systems in a broader social context (see my first-authored publications at [EMNLP 2022](https://aclanthology.org/2022.emnlp-main.642/), [ACL 2023](https://aclanthology.org/2023.acl-long.531/), [EMNLP 2023 Findings](https://aclanthology.org/2023.findings-emnlp.962/), [COLM 2024](https://openreview.net/forum?id=yK8MT91dQY#discussion)). During my internship in the industry, I've also worked on aligning language models (see my recent first-authored work at [ICML 2025](https://arxiv.org/abs/2502.03397)).
 
 Casually, I go by Henry.
 
 <div style="margin-top: 30px;"></div>
 
+<!-- Education -->
 <div class="education">
   <h2>Education</h2>
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
@@ -47,7 +50,7 @@ Casually, I go by Henry.
         <br>
         <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
         <br>
-        &#8259; Advisor: Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>
+        &#8259; Advisor: Dr. <a href="https://jessyli.com/">Junyi Jessy Li</a>
       </div>
     </div>
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
@@ -64,8 +67,21 @@ Casually, I go by Henry.
 
 <br/>
 
+<!-- Industry Experience -->
 <div class="education">
   <h2>Industry Experience</h2>
+
+  <!-- Summer 2025 @IBM Research -->
+  <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
+    <div>
+      <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2025
+      <br>
+      IBM Thomas J. Watson Research Center, Yorktown Heights, NY
+    </div>
+  </div>
+
+  <!-- Summer 2024 @IBM Research -->
   <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
@@ -77,9 +93,10 @@ Casually, I go by Henry.
       <br>
       &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://moonfolk.github.io/">Mikhail Yurochkin</a>
       <br>
-      &#8259; Received return internship offer for Summer 2025
-      <br>
-      &#8259; Work resulted in a first-authored patent and a first-authored paper
+      <!-- &#8259; Received return internship offer for Summer 2025
+      <br> -->
+      &#8259; Work resulted in a first-authored patent and a first-authored paper at ICML 2025
     </div>
   </div>
+
 </div>
