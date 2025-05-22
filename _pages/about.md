@@ -78,6 +78,8 @@ Casually, I go by Henry.
       <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2025
       <br>
       IBM Thomas J. Watson Research Center, Yorktown Heights, NY
+      <br>
+      &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a>
     </div>
   </div>
 
@@ -88,8 +90,6 @@ Casually, I go by Henry.
       <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2024
       <br>
       IBM Thomas J. Watson Research Center, Yorktown Heights, NY
-      <br>
-      &#8259; Hosted by the Responsible and Inclusive Technologies Research Group
       <br>
       &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://moonfolk.github.io/">Mikhail Yurochkin</a>
       <br>
