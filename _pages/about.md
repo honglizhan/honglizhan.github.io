@@ -93,9 +93,9 @@ Casually, I go by Henry.
       <br>
       &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://moonfolk.github.io/">Mikhail Yurochkin</a>
       <br>
-      <!-- &#8259; Received return internship offer for Summer 2025
-      <br> -->
       &#8259; Work resulted in a first-authored patent and a first-authored paper at ICML 2025
+      <br>
+      &#8259; Work incorporated as part of the features in IBM's Granite Guardian
     </div>
   </div>
 
