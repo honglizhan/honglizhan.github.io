@@ -79,7 +79,7 @@ Casually, I go by Henry.
       <br>
       IBM Thomas J. Watson Research Center, Yorktown Heights, NY
       <br>
-      &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a>, Dr. <a href="https://sites.google.com/site/pinyuchenpage/home">Pin-Yu Chen</a>
+      &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://sites.google.com/site/pinyuchenpage/home">Pin-Yu Chen</a>
     </div>
   </div>
 
