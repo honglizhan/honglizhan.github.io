@@ -23,7 +23,7 @@
         {% endfor %}
       </table>
 
-      <button id="show-more-btn" style="
+      <button id="toggle-btn" style="
         margin-top: 10px;
         background-color: #007bff;
         color: white;
@@ -35,14 +35,24 @@
     </div>
 
     <script>
-      const btn = document.getElementById('show-more-btn');
+      const btn = document.getElementById('toggle-btn');
+      const hiddenRows = document.querySelectorAll('.hidden-news');
+      let expanded = false;
+
       btn.addEventListener('click', () => {
-        document.querySelectorAll('.hidden-news').forEach(row => {
-          row.style.display = 'table-row';
-        });
-        btn.style.display = 'none';
+        if (!expanded) {
+          hiddenRows.forEach(row => row.style.display = 'table-row');
+          btn.textContent = 'Show less';
+        } else {
+          hiddenRows.forEach(row => row.style.display = 'none');
+          btn.textContent = 'Show more';
+          // Scroll back to the top of the news box
+          document.getElementById('news-box').scrollIntoView({ behavior: 'smooth' });
+        }
+        expanded = !expanded;
       });
     </script>
+
     <style>
       .hidden-news {
         display: none;
