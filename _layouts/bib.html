@@ -59,7 +59,7 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
-            
+
             {%- if forloop.length > 1 -%}
               {%- if forloop.first == false -%},&nbsp;{%- endif -%}
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
@@ -75,7 +75,7 @@
             {%- endif -%}
           {%- endfor -%}
           {%- assign more_authors = author_array_size | minus: author_array_limit -%}
-          
+
           {%- if author_array_limit == 0 -%}
             {%- assign more_authors_hide = more_authors | append: " more author" -%}
           {%- else -%}
@@ -140,7 +140,7 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
-        
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -157,6 +157,9 @@
           {%- endif %}
           {%- if entry.open_review %}
           <a href="{{ entry.open_review }}" class="btn btn-sm z-depth-0" role="button">Open Review</a>
+          {%- endif %}
+          {%- if entry.conference_link %}
+          <a href="{{ entry.conference_link }}" class="btn btn-sm z-depth-0" role="button">Conference Link</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
