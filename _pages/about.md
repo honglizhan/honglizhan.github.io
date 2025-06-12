@@ -38,9 +38,10 @@ The ambition of my Ph.D. research is to build emotionally intelligent AI systems
 
 Casually, I go by Henry.
 
-<p style="background-color: #ffcccc; padding: 10px; border-radius: 5px; font-weight: bold; color: #900;">
-I am on the job market this year and actively seeking Research Scientist roles in industry!
+<p style="background-color: #ffcccc; padding: 10px; border-radius: 5px; font-weight: bold; color: #900; margin: 0;">
+I’m on the job market this year — actively seeking industry roles as a Research Scientist.
 </p>
+
 
 <div style="margin-top: 30px;"></div>
 
