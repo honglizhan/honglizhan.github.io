@@ -36,6 +36,8 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
 
 The ambition of my Ph.D. research is to build emotionally intelligent AI systems in a broader social context (see my first-authored publications at [EMNLP 2022](https://aclanthology.org/2022.emnlp-main.642/), [ACL 2023](https://aclanthology.org/2023.acl-long.531/), [EMNLP 2023 Findings](https://aclanthology.org/2023.findings-emnlp.962/), [COLM 2024](https://openreview.net/forum?id=yK8MT91dQY#discussion)). During my internship in the industry, I've also worked on aligning language models (see my recent first-authored work at [ICML 2025](https://arxiv.org/abs/2502.03397)).
 
+My research contributes to IBM's <a href="https://www.ibm.com/granite/docs/models/guardian/">Granite Guardian</a> models.
+
 Casually, I go by Henry.
 
 <span style="background-color: #ffcccc; padding: 6px 10px; border-radius: 5px; font-weight: bold; color: #900;">
