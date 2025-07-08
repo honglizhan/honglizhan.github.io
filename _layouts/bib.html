@@ -205,7 +205,7 @@
           {% if entry.expo_talk contains '://' -%}
           <a href="{{ entry.expo_talk }}" class="btn btn-sm z-depth-0" role="button">Expo Talk</a>
           {%- else -%}
-          <a href="{{ entry.expo_talk | prepend: '/assets/my_papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="{{ entry.expo_talk | prepend: '/assets/my_papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Expo Talk</a>
           {%- endif %}
           {%- endif %}
           </div>
