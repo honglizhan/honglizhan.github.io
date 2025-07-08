@@ -202,10 +202,13 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           {%- if entry.expo_talk %}
-          {% if entry.expo_talk contains '://' -%}
           <a href="{{ entry.expo_talk }}" class="btn btn-sm z-depth-0" role="button">Expo Talk</a>
+          {%- endif %}
+          {%- if entry.expo_talk_slides_slides %}
+          {% if entry.expo_talk_slides contains '://' -%}
+          <a href="{{ entry.expo_talk_slides }}" class="btn btn-sm z-depth-0" role="button">Expo Talk Slides</a>
           {%- else -%}
-          <a href="{{ entry.expo_talk | prepend: '/assets/my_papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Expo Talk</a>
+          <a href="{{ entry.expo_talk_slides | prepend: '/assets/my_papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Expo Talk Slides</a>
           {%- endif %}
           {%- endif %}
           </div>
