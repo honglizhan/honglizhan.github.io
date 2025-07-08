@@ -201,6 +201,13 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          {%- if entry.icml_expo_talk %}
+          {% if entry.icml_expo_talk contains '://' -%}
+          <a href="{{ entry.expo_talk }}" class="btn btn-sm z-depth-0" role="button">Expo Talk</a>
+          {%- else -%}
+          <a href="{{ entry.expo_talk | prepend: '/assets/my_papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          {%- endif %}
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
