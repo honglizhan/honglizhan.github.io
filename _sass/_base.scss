@@ -520,3 +520,24 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.5rem;
+
+    .navbar-nav {
+      flex-direction: row !important;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .nav-item {
+        padding: 0.2rem 0.5rem;
+
+        .nav-link {
+          padding: 0.2rem 0.5rem;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
