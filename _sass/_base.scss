@@ -529,15 +529,13 @@ html.transition *:after {
       flex-direction: row !important;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 0;
 
       .nav-item {
-        margin: 0;
-        padding: 0;
+        padding: 0.2rem 0.5rem;
 
         .nav-link {
-          padding: 0.2rem 0.1rem;
-          font-size: 0.9rem;
+          padding: 0.2rem 0.5rem;
+          font-size: 1.2rem;
         }
       }
     }
