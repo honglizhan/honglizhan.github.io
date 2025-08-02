@@ -34,9 +34,13 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>.
 
-The ambition of my Ph.D. research is to build emotionally intelligent AI systems in a broader social context (see [EMNLP 2022](https://aclanthology.org/2022.emnlp-main.642/), [ACL 2023](https://aclanthology.org/2023.acl-long.531/), [EMNLP 2023 Findings](https://aclanthology.org/2023.findings-emnlp.962/), [COLM 2024](https://openreview.net/forum?id=yK8MT91dQY#discussion)). During my internship in the industry, I've also worked on aligning language models (see my recent work at [ICML 2025](https://openreview.net/forum?id=klw8Ko4ENe&noteId=ROlliZ5Vy2)).
+Some of my research interests include:
 
-My research contributes to IBM's <a href="https://www.ibm.com/granite/docs/models/guardian/">Granite Guardian</a> models.
+- **Emotionally Intelligent and Socially-Aware AI:** Emotions form a crucial aspect of people’s well-being. My research examines the extent to which language models comprehend human emotions and explore how their emotional understanding can be leveraged to benefit people — for instance, by fostering long-term emotional well-being and delivering empathic responses. I develop methods to model emotional dynamics in language, design interventions that support users’ emotional health, and investigate how emotional intelligence in AI can be situated within broader social contexts.
+  - *Selected work:* [EMNLP 2022](https://aclanthology.org/2022.emnlp-main.642/), [ACL 2023](https://aclanthology.org/2023.acl-long.531/), [EMNLP 2023 Findings](https://aclanthology.org/2023.findings-emnlp.962/), [COLM 2024](https://openreview.net/forum?id=yK8MT91dQY#discussion)
+
+- **AI Alignment and Safety:** How do we ensure that increasingly capable language models behave safely and responsibly in real-world scenarios? My work studies alignment techniques that allows AI to adapt to evolving social norms and user intentions. Work done during my internship at IBM Research contributes to IBM's <a href="https://www.ibm.com/granite/docs/models/guardian/">Granite Guardian</a> models.
+  - *Selected work:* [ICML 2025](https://openreview.net/forum?id=klw8Ko4ENe&noteId=ROlliZ5Vy2)
 
 Casually, I go by Henry.
 
