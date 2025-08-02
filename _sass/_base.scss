@@ -531,10 +531,11 @@ html.transition *:after {
       justify-content: center;
 
       .nav-item {
-        padding: 0.2rem 0.5rem;
+        padding: 0;
+        margin: 0;
 
         .nav-link {
-          padding: 0.2rem 0.5rem;
+          padding: 0.2rem 0.4rem;
           font-size: 0.9rem;
         }
       }
