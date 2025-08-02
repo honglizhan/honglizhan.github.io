@@ -34,7 +34,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I'm blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>.
 
-Some of my research interests include:
+Here are some of the research directions I am interested in:
 
 - **Emotionally Intelligent AI:** Emotions form a crucial aspect of people’s well-being. My research examines the extent to which language models comprehend human emotions and explore how their emotional understanding can be leveraged to benefit people — for instance, by fostering long-term emotional well-being and delivering empathic responses.
   - Selected work: [EMNLP 2022](https://aclanthology.org/2022.emnlp-main.642/), [ACL 2023](https://aclanthology.org/2023.acl-long.531/), [EMNLP 2023 Findings](https://aclanthology.org/2023.findings-emnlp.962/), [COLM 2024](https://openreview.net/forum?id=yK8MT91dQY#discussion)
