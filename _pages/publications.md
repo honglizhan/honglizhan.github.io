@@ -6,7 +6,7 @@ description:
 years: [2025, 2024, 2023, 2022]
 nav: true
 ---
-\* Denotes equal contributions.
+*\* Denotes equal contributions.*
 
 For a complete list of my publications, please visit my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=_EAk1jUAAAAJ).
 
