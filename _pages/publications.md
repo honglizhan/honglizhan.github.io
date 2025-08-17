@@ -10,6 +10,9 @@ nav: true
 
 For a complete list of my publications, please visit my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=_EAk1jUAAAAJ).
 
+<!-- Bibsearch Feature -->
+{% include bib_search.liquid %}
+
 <div class="publications">
 
 {% for y in page.years %}
