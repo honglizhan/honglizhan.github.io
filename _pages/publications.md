@@ -8,7 +8,7 @@ nav: true
 ---
 \* Denotes equal contributions.
 
-For my complete list of publications, please visit my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=_EAk1jUAAAAJ).
+For a complete list of my publications, please visit my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=_EAk1jUAAAAJ).
 
 <!-- Publication Search Bar -->
 <div class="publication-search" style="margin-bottom: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
@@ -40,14 +40,22 @@ document.addEventListener('DOMContentLoaded', function() {
   const clearButton = document.getElementById('clear-search');
 
   function filterPublications() {
-    const keyword = keywordFilter.value.toLowerCase();
+    const keyword = keywordFilter.value.toLowerCase().trim();
 
-    // Get all publication entries
+    // Get all publication entries - try multiple selectors to catch the actual structure
     const yearSections = document.querySelectorAll('.year-publications');
     const yearHeaders = document.querySelectorAll('h2.year');
 
     yearSections.forEach((section, index) => {
-      const entries = section.querySelectorAll('.bibliography > .list-group-item, .bibliography > div');
+      // Try different selectors to find the actual publication entries
+      let entries = section.querySelectorAll('.row');
+      if (entries.length === 0) {
+        entries = section.querySelectorAll('li');
+      }
+      if (entries.length === 0) {
+        entries = section.querySelectorAll('div[id]');
+      }
+
       let visibleCount = 0;
 
       entries.forEach(entry => {
@@ -55,11 +63,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Keyword filter
         if (keyword) {
+          // Get all text content from the entry
+          const entryText = entry.textContent.toLowerCase();
+
+          // Also try specific selectors
           const title = entry.querySelector('.title') ? entry.querySelector('.title').textContent.toLowerCase() : '';
           const author = entry.querySelector('.author') ? entry.querySelector('.author').textContent.toLowerCase() : '';
           const abstract = entry.querySelector('.abstract p') ? entry.querySelector('.abstract p').textContent.toLowerCase() : '';
+          const venue = entry.querySelector('.badge') ? entry.querySelector('.badge').textContent.toLowerCase() : '';
 
-          if (!title.includes(keyword) && !author.includes(keyword) && !abstract.includes(keyword)) {
+          // Search in any of these fields
+          if (!entryText.includes(keyword) &&
+              !title.includes(keyword) &&
+              !author.includes(keyword) &&
+              !abstract.includes(keyword) &&
+              !venue.includes(keyword)) {
             shouldShow = false;
           }
         }
@@ -75,6 +93,10 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       section.style.display = visibleCount > 0 ? 'block' : 'none';
     });
+
+    // Debug output
+    console.log('Search term:', keyword);
+    console.log('Found year sections:', yearSections.length);
   }
 
   function clearSearch() {
@@ -84,40 +106,52 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Add event listeners
   keywordFilter.addEventListener('input', filterPublications);
+  keywordFilter.addEventListener('keyup', filterPublications);
   clearButton.addEventListener('click', clearSearch);
+
+  // Debug: Add a delay to ensure DOM is fully loaded
+  setTimeout(() => {
+    console.log('DOM loaded, searching for publications...');
+    const testSections = document.querySelectorAll('.year-publications');
+    console.log('Year sections found:', testSections.length);
+    testSections.forEach((section, i) => {
+      const entries = section.querySelectorAll('.row, li, div[id]');
+      console.log(`Section ${i} entries:`, entries.length);
+    });
+  }, 1000);
 });
 </script>
 
 <style>
-.publication-filters {
+.publication-search {
   background: var(--global-bg-color);
   border: 1px solid var(--global-text-color-light);
 }
 
-.publication-filters label {
+.publication-search label {
   color: var(--global-text-color);
 }
 
-.publication-filters .form-control {
+.publication-search .form-control {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-text-color-light);
   color: var(--global-text-color);
 }
 
-.publication-filters .form-control:focus {
+.publication-search .form-control:focus {
   background-color: var(--global-bg-color);
   border-color: var(--global-theme-color);
   color: var(--global-text-color);
   box-shadow: 0 0 0 0.2rem rgba(var(--global-theme-color-rgb), 0.25);
 }
 
-.publication-filters .btn-secondary {
+.publication-search .btn-secondary {
   background-color: var(--global-theme-color);
   border-color: var(--global-theme-color);
   color: white;
 }
 
-.publication-filters .btn-secondary:hover {
+.publication-search .btn-secondary:hover {
   background-color: var(--global-hover-color);
   border-color: var(--global-hover-color);
 }
