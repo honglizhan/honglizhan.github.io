@@ -8,7 +8,7 @@ nav: true
 ---
 *\* Denotes equal contributions.*
 
-For a complete list of my publications, please visit my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=_EAk1jUAAAAJ).
+Also, here is my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=_EAk1jUAAAAJ).
 
 <div class="publications">
 
