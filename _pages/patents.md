@@ -3,7 +3,7 @@ layout: page
 permalink: /patents/
 title: Patents
 description:
-years: [2025, 2024, 2023, 2022]
+years: [2025]
 nav: true
 ---
 *\* Denotes equal contributions.*
