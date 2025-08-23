@@ -5,6 +5,7 @@ title: Patents
 description:
 years: [2025]
 nav: true
+nav_order: 4
 ---
 *\* Denotes equal contributions.*
 
