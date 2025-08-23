@@ -1,0 +1,20 @@
+---
+layout: page
+permalink: /patents/
+title: Patents
+description:
+years: [2025, 2024, 2023, 2022]
+nav: true
+---
+*\* Denotes equal contributions.*
+
+<div class="patents">
+
+{% for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f patents -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
+
+<hr>
