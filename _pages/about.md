@@ -105,7 +105,7 @@ Casually, I go by Henry.
       <br>
       &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://moonfolk.github.io/">Mikhail Yurochkin</a>
       <br>
-      &#8259; Work resulted in a first-authored paper at <a href="https://icml.cc/virtual/2025/poster/44235">ICML 2025</a> & a first-authored U.S. patent, and was incorporated as part of the features in IBM's <a href="https://www.ibm.com/granite/docs/models/guardian/">Granite Guardian</a>
+      &#8259; Work resulted in a first-authored paper at <a href="https://icml.cc/virtual/2025/poster/44235">ICML 2025</a> & a first-authored U.S. patent, and contributed to IBM's <a href="https://www.ibm.com/granite/docs/models/guardian/">Granite Guardian</a> models
     </div>
   </div>
 
