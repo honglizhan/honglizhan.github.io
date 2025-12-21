@@ -45,9 +45,9 @@ Here are some of the research directions I am interested in:
 
 Casually, I go by Henry.
 
-<span style="background-color: #ffcccc; padding: 6px 10px; border-radius: 5px; font-weight: bold; color: #900;">
+<!-- <span style="background-color: #ffcccc; padding: 6px 10px; border-radius: 5px; font-weight: bold; color: #900;">
 🔔 I am expected to finish my PhD in May 2026, and I am actively looking for Research Scientist roles in the industry!
-</span>
+</span> -->
 
 
 <div style="margin-top: 30px;"></div>
