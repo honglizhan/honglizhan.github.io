@@ -9,8 +9,9 @@
     ">
       <table class="table table-sm table-borderless mb-0">
         {% assign news = site.news | reverse %}
+        {% assign news_limit = site.news_limit | default: 3 %}
         {% for item in news %}
-          <tr class="news-item" data-page="{% assign page_num = forloop.index | minus: 1 | divided_by: 3 | plus: 1 %}{{ page_num }}" style="height: 2.5em; {% if forloop.index > 3 %}display: none;{% endif %}">
+          <tr class="news-item" data-page="{% assign page_num = forloop.index | minus: 1 | divided_by: news_limit | plus: 1 %}{{ page_num }}" style="height: 2.5em; {% if forloop.index > news_limit %}display: none;{% endif %}">
             <td style="white-space: normal;">
               {% assign formatted_date = item.date | date: "%Y/%m/%d" %}
               {% if item.inline %}
@@ -54,7 +55,7 @@
       const pageInfo = document.getElementById('page-info');
       const totalPagesSpan = document.getElementById('total-pages');
 
-      const itemsPerPage = 3;
+      const itemsPerPage = {{ site.news_limit | default: 3 }};
       const totalPages = Math.ceil(newsItems.length / itemsPerPage);
       let currentPage = 1;
 
