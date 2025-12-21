@@ -101,7 +101,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 3
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
