@@ -58,7 +58,7 @@ Casually, I go by Henry.
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
       <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/University_of_Texas_at_Austin_logo.svg" alt="UT Austin Logo" style="width:80px; height:auto; margin-right:20px;">
       <div>
-        <strong>Ph.D. in Computational Linguistics</strong>, 2021 &ndash; Present
+        <strong>Ph.D. in Computational Linguistics</strong>, Aug 2021 &ndash; Present
         <br>
         <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
         <br>
@@ -68,7 +68,7 @@ Casually, I go by Henry.
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
       <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/sjtu_banner_red.svg" alt="SJTU Logo" style="width:80px; height:auto; margin-right:20px;">
       <div>
-        <strong>B.A. in English Linguistics</strong>, 2017 &ndash; 2021
+        <strong>B.A. in English Linguistics</strong>, Sep 2017 &ndash; June 2021
         <br>
         <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>
         <br>
@@ -83,11 +83,23 @@ Casually, I go by Henry.
 <div class="education">
   <h2>Industry Experience</h2>
 
+  <!-- Part-Time @IFM -->
+  <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
+    <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/ifm-logo.svg" alt="IFM Logo" style="width:80px; height:auto; margin-right:20px;">
+    <div>
+      <br>
+      <strong>Research Scientist Intern (Part-Time), <a href="https://ifm.ai/">IFM MBZUAI Silicon Valley Lab</a></strong>, Jan 2026 &ndash; May 2026
+      Sunnyvale, CA
+      <!-- <br> -->
+      <!-- &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://sites.google.com/site/pinyuchenpage/home">Pin-Yu Chen</a> -->
+    </div>
+  </div>
+
   <!-- Summer 2025 @IBM Research -->
   <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
-      <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2025
+      <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, May 2025 &ndash; Aug 2025
       <br>
       IBM Thomas J. Watson Research Center, Yorktown Heights, NY
       <br>
@@ -99,7 +111,7 @@ Casually, I go by Henry.
   <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
-      <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, Summer 2024
+      <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, May 2024 &ndash; Aug 2024
       <br>
       IBM Thomas J. Watson Research Center, Yorktown Heights, NY
       <br>
