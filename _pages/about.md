@@ -83,17 +83,18 @@ Casually, I go by Henry.
 <div class="education">
   <h2>Industry Experience</h2>
 
-  <!-- Part-Time @IFM -->
+  <!-- Part-Time @IFM
   <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
     <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/ifm-logo.svg" alt="IFM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
       <br>
       <strong>Research Scientist Intern (Part-Time), <a href="https://ifm.ai/">IFM MBZUAI Silicon Valley Lab</a></strong>, Jan 2026 &ndash; May 2026
       Sunnyvale, CA
-      <!-- <br> -->
-      <!-- &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://sites.google.com/site/pinyuchenpage/home">Pin-Yu Chen</a> -->
+      <br>
+      &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://sites.google.com/site/pinyuchenpage/home">Pin-Yu Chen</a>
     </div>
   </div>
+  -->
 
   <!-- Summer 2025 @IBM Research -->
   <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
