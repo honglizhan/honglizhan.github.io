@@ -84,36 +84,36 @@ Casually, I go by Henry.
   <h2>Industry Experience</h2>
 
   <!-- Part-Time @IFM -->
-  <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
+  <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
     <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/ifm-logo.svg" alt="IFM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
+      <strong>Research Scientist Intern (Part-Time)</strong>, Jan 2026 &ndash; May 2026
       <br>
-      <strong>Research Scientist Intern (Part-Time), <a href="https://ifm.ai/">IFM MBZUAI Silicon Valley Lab</a></strong>, Jan 2026 &ndash; May 2026
-      Sunnyvale, CA
+      <a href="https://ifm.ai/">IFM MBZUAI Silicon Valley Lab</a>, Sunnyvale, CA
       <br>
       &#8259; Post-training
     </div>
   </div>
 
   <!-- Summer 2025 @IBM Research -->
-  <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
+  <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
-      <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, May 2025 &ndash; Aug 2025
+      <strong>Research Scientist Intern</strong>, May 2025 &ndash; Aug 2025
       <br>
-      IBM Thomas J. Watson Research Center, Yorktown Heights, NY
+      <a href="https://research.ibm.com/">IBM Research</a>, Yorktown Heights, NY
       <br>
       &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://sites.google.com/site/pinyuchenpage/home">Pin-Yu Chen</a>
     </div>
   </div>
 
   <!-- Summer 2024 @IBM Research -->
-  <div class="experience-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
+  <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
     <div>
-      <strong>Research Scientist Intern, <a href="https://research.ibm.com/">IBM Research</a></strong>, May 2024 &ndash; Aug 2024
+      <strong>Research Scientist Intern</strong>, May 2024 &ndash; Aug 2024
       <br>
-      IBM Thomas J. Watson Research Center, Yorktown Heights, NY
+      <a href="https://research.ibm.com/">IBM Research</a>, Yorktown Heights, NY
       <br>
       &#8259; Manager: Dr. <a href="https://www.linkedin.com/in/raya-horesh/">Raya Horesh</a>; Mentors: Dr. <a href="https://www.linkedin.com/in/muneeza-azmat-b4702851">Muneeza Azmat</a> & Dr. <a href="https://moonfolk.github.io/">Mikhail Yurochkin</a>
       <br>
