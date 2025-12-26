@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: honglizhan@utexas.edu
+description: hongli.zhan@utexas.edu
 
 profile:
   align: right
