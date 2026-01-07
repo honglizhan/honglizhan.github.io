@@ -56,7 +56,7 @@ Casually, I go by Henry.
 <div class="education">
   <h2>Education</h2>
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
-      <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/ut_logo.svg" alt="UT Austin Logo" style="width:80px; height:auto; margin-right:20px;">
+      <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/ut_logo.svg" alt="UT Austin Logo" style="width:80px; height:45px; object-fit: contain; object-position: left; flex-shrink: 0; margin-right:20px;">
       <div>
         <strong>Ph.D. in Computational Linguistics</strong>, Aug 2021 &ndash; Present
         <br>
@@ -66,7 +66,7 @@ Casually, I go by Henry.
       </div>
     </div>
     <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
-      <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/sjtu_logo.svg" alt="SJTU Logo" style="width:80px; height:auto; margin-right:20px;">
+      <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/sjtu_logo.svg" alt="SJTU Logo" style="width:80px; height:45px; object-fit: contain; object-position: left; flex-shrink: 0; margin-right:20px;">
       <div>
         <strong>B.A. in English Linguistics</strong>, Sep 2017 &ndash; June 2021
         <br>
@@ -85,7 +85,7 @@ Casually, I go by Henry.
 
   <!-- Part-Time @IFM -->
   <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
-    <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/ifm_logo.svg" alt="IFM Logo" style="width:80px; height:auto; margin-right:20px;">
+    <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/ifm_logo.svg" alt="IFM Logo" style="width:80px; height:45px; object-fit: contain; object-position: left; flex-shrink: 0; margin-right:20px;">
     <div>
       <strong>Research Scientist Intern (Part-Time)</strong>, Jan 2026 &ndash; May 2026
       <br>
@@ -97,7 +97,7 @@ Casually, I go by Henry.
 
   <!-- Summer 2025 @IBM Research -->
   <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
-    <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/ibm_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
+    <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/ibm_logo.svg" alt="IBM Logo" style="width:80px; height:45px; object-fit: contain; object-position: left; flex-shrink: 0; margin-right:20px;">
     <div>
       <strong>Research Scientist Intern</strong>, May 2025 &ndash; Aug 2025
       <br>
@@ -109,7 +109,7 @@ Casually, I go by Henry.
 
   <!-- Summer 2024 @IBM Research -->
   <div class="education-title" style="display: flex; align-items: flex-start; margin-top: 15px;">
-    <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/ibm_logo.svg" alt="IBM Logo" style="width:80px; height:auto; margin-right:20px;">
+    <img src="https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/img/logos/ibm_logo.svg" alt="IBM Logo" style="width:80px; height:45px; object-fit: contain; object-position: left; flex-shrink: 0; margin-right:20px;">
     <div>
       <strong>Research Scientist Intern</strong>, May 2024 &ndash; Aug 2024
       <br>
