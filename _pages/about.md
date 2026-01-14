@@ -91,7 +91,9 @@ Casually, I go by Henry.
       <br>
       <a href="https://ifm.ai/">IFM MBZUAI Silicon Valley Lab</a>, Sunnyvale, CA
       <br>
-      &#8259; Post-training
+      &#8259; Host: Dr. <a href="https://rupeshks.cc/">Rupesh Kumar Srivastava</a>
+      <br>
+      &#8259; Post-training and agents
     </div>
   </div>
 
