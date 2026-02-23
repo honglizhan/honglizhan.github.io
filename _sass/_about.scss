@@ -2,6 +2,16 @@
  * About page: Research cards, education, scroll animations
  ******************************************************************************/
 
+// About page quote
+.about-quote {
+  display: inline-block;
+  margin: 0 0 1.875rem 0;
+  padding: 10px;
+  background-color: var(--global-code-bg-color, #ecf0f1);
+  font-style: italic;
+  font-size: 1.1em;
+}
+
 // Research Area Cards
 .research-cards {
   display: flex;
@@ -11,7 +21,7 @@
 }
 
 .research-card {
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--global-card-border-color, rgba(0, 0, 0, 0.08));
   border-radius: 10px;
   padding: 1.25rem 1.5rem;
   background: var(--global-bg-color);
@@ -124,11 +134,11 @@ html[data-theme='dark'] {
     overflow: auto;
     display: flex;
     align-items: flex-start;
-    margin-top: 15px;
+    margin-top: 0.938rem;
   }
 
   .education-title:first-of-type {
-    margin-top: 15px;
+    margin-top: 0.938rem;
   }
 
   strong {
@@ -136,17 +146,17 @@ html[data-theme='dark'] {
   }
 
   .edu-logo {
-    width: 80px;
+    width: 5rem;
     height: auto;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     flex-shrink: 0;
   }
 }
 
 @media (max-width: 576px) {
   .education .edu-logo {
-    width: 55px;
-    margin-right: 12px;
+    width: 3.438rem;
+    margin-right: 0.75rem;
   }
 
   .research-card {

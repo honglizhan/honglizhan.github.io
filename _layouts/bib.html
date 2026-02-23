@@ -6,9 +6,9 @@
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" loading="lazy">
           {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" loading="lazy">
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
@@ -99,18 +99,10 @@
             <span
                 class="more-authors"
                 title="click to view {{more_authors_hide}}"
-                onclick="
-                  var element = $(this);
-                  element.attr('title', '');
-                  var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
-                  var cursorPosition = 0;
-                  var textAdder = setInterval(function(){
-                    element.text(more_authors_text.substring(0, cursorPosition + 1));
-                    if (++cursorPosition == more_authors_text.length){
-                      clearInterval(textAdder);
-                    }
-                  }, 15);
-                "
+                tabindex="0"
+                role="button"
+                onclick="toggleMoreAuthors(this, '{{more_authors_hide}}', '{{more_authors_show}}')"
+                onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleMoreAuthors(this, '{{more_authors_hide}}', '{{more_authors_show}}')}"
             >{{more_authors_hide}}</span>
           {%- endif -%}
 
@@ -144,13 +136,14 @@
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+            <a href="#" class="abstract btn btn-sm z-depth-0" role="button" onclick="event.preventDefault()">Abstract</a>
           {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="#" class="bibtex btn btn-sm z-depth-0" role="button" onclick="event.preventDefault()">Bib</a>
+            <a href="#" class="copy-bibtex btn btn-sm z-depth-0" role="button" onclick="event.preventDefault(); copyBibtex(this)">Copy Bib</a>
           {%- endif %}
           {%- if entry.official_link %}
             <a href="{{ entry.official_link }}" class="btn btn-sm z-depth-0" role="button">Official Link</a>

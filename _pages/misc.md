@@ -11,7 +11,7 @@ horizontal: True
 ---
 
 <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-   <img align="right" height="auto" width="300" style="border-radius:100%" margin-left="auto" src="https://user-images.githubusercontent.com/90797701/215368225-cb068113-919e-4d91-a7ff-d521dcf230f8.jpg">
+   <img src="https://user-images.githubusercontent.com/90797701/215368225-cb068113-919e-4d91-a7ff-d521dcf230f8.jpg" alt="Portrait photo" style="float: right; height: auto; width: 300px; border-radius: 100%; margin-left: auto;" loading="lazy">
    
    <div class="address">
       <br><br>&nbsp;
@@ -36,7 +36,7 @@ Growing up, I have been a member of numerous orchestras, including:
 </ul>
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; margin-bottom: 0.3cm;">
-    <iframe src="https://www.youtube.com/embed/z_dipl8xAYc"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+    <iframe src="https://www.youtube.com/embed/z_dipl8xAYc" title="YouTube video" allowfullscreen style="position: absolute; width: 100%; height: 100%; left: 0; top: 0; border: 0;"></iframe>
 </div>
 
 I favor the Baroque period music, and my favorite composers are J.S. Bach, Handel, and Vivaldi. I've also learned to play the piano in primary school. Here you can watch a video of me playing the piano and the cello as a kid in the Gulang Island Concert Hall.

@@ -1,17 +1,12 @@
-<div class="news" style="padding: 10px; position: relative;">
+<div class="news">
   <h2>News</h2>
   {% if site.news %}
-    <div id="news-box" style="
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      padding: 15px;
-      background: #f9f9f9;
-    ">
+    <div id="news-box">
       <table class="table table-sm table-borderless mb-0">
         {% assign news = site.news | reverse %}
         {% assign news_limit = site.news_limit | default: 3 %}
         {% for item in news %}
-          <tr class="news-item" data-page="{% assign page_num = forloop.index | minus: 1 | divided_by: news_limit | plus: 1 %}{{ page_num }}" style="height: 2.5em; {% if forloop.index > news_limit %}display: none;{% endif %}">
+          <tr class="news-item" data-page="{% assign page_num = forloop.index | minus: 1 | divided_by: news_limit | plus: 1 %}{{ page_num }}" {% if forloop.index > news_limit %}style="display: none;"{% endif %}>
             <td style="white-space: normal;">
               {% assign formatted_date = item.date | date: "%Y/%m/%d" %}
               {% if item.inline %}
@@ -24,27 +19,12 @@
         {% endfor %}
       </table>
 
-      <div class="news-pagination" style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
-        <button id="prev-btn" style="
-          background-color: #6c757d;
-          color: white;
-          border: none;
-          border-radius: 4px;
-          padding: 6px 12px;
-          cursor: pointer;
-          opacity: 0.5;
-        " disabled>Previous page</button>
+      <div class="news-pagination">
+        <button id="prev-btn" disabled>Previous page</button>
 
-        <span id="page-info" style="font-size: 14px; color: #6c757d;">Page 1 of <span id="total-pages"></span></span>
+        <span id="page-info">Page 1 of <span id="total-pages"></span></span>
 
-        <button id="next-btn" style="
-          background-color: #007bff;
-          color: white;
-          border: none;
-          border-radius: 4px;
-          padding: 6px 12px;
-          cursor: pointer;
-        ">Next page</button>
+        <button id="next-btn">Next page</button>
       </div>
     </div>
 
@@ -62,10 +42,8 @@
       totalPagesSpan.textContent = totalPages;
 
       function showPage(page) {
-        // Hide all items
         newsItems.forEach(item => item.style.display = 'none');
 
-        // Show items for current page
         const startIndex = (page - 1) * itemsPerPage;
         const endIndex = startIndex + itemsPerPage;
 
@@ -73,18 +51,10 @@
           newsItems[i].style.display = 'table-row';
         }
 
-        // Update page info
         pageInfo.innerHTML = `Page ${page} of <span id="total-pages">${totalPages}</span>`;
 
-        // Update button states
         prevBtn.disabled = page === 1;
         nextBtn.disabled = page === totalPages;
-
-        prevBtn.style.opacity = page === 1 ? '0.5' : '1';
-        nextBtn.style.opacity = page === totalPages ? '0.5' : '1';
-
-        prevBtn.style.cursor = page === 1 ? 'not-allowed' : 'pointer';
-        nextBtn.style.cursor = page === totalPages ? 'not-allowed' : 'pointer';
       }
 
       prevBtn.addEventListener('click', () => {
@@ -101,19 +71,8 @@
         }
       });
 
-      // Initialize
       showPage(1);
     </script>
-
-    <style>
-      .news-pagination button:disabled {
-        cursor: not-allowed !important;
-      }
-
-      .news-pagination button:not(:disabled):hover {
-        opacity: 0.8;
-      }
-    </style>
   {% else %}
     <p>No news so far...</p>
   {% endif %}

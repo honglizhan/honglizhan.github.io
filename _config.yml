@@ -9,11 +9,11 @@ last_name: Zhan
 chinese_name: 詹弘立
 email: HongliZhan@utexas.edu
 description: Hongli Zhan | Ph.D. Candidate in Computational Linguistics | UT Austin
-footer_text: Powered by Jekyll with al-folio theme. # Computational Linguist In-Training, Cellist Since 4-Years-Old. #>
+footer_text: Powered by Jekyll with al-folio theme.
 
 
 icon: ⚆ # the emoji used as the favicon
-url:  # the base hostname & protocol for your site
+url: https://honglizhan.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -34,13 +34,12 @@ footer_fixed: true
 # Dimensions
 max_width: 800px
 
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -67,8 +66,8 @@ dblp_url: # your DBLP profile url
 contact_note: >
 
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+google_analytics:  # your google-analytics code
+panelbear_analytics:  # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -83,7 +82,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:  # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------

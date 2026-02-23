@@ -1,0 +1,56 @@
+/*******************************************************************************
+ * News section styles
+ ******************************************************************************/
+
+.news {
+  padding: 10px;
+  position: relative;
+}
+
+#news-box {
+  border: 1px solid var(--global-divider-color, #ccc);
+  border-radius: 8px;
+  padding: 15px;
+  background: var(--global-code-bg-color, #f9f9f9);
+}
+
+.news-item {
+  height: 2.5em;
+}
+
+.news-pagination {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+
+    &:disabled {
+      cursor: not-allowed !important;
+      opacity: 0.5;
+    }
+
+    &:not(:disabled):hover {
+      opacity: 0.8;
+    }
+  }
+
+  #prev-btn {
+    background-color: #6c757d;
+  }
+
+  #next-btn {
+    background-color: #007bff;
+  }
+
+  #page-info {
+    font-size: 14px;
+    color: #6c757d;
+  }
+}

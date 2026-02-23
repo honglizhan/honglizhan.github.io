@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-<blockquote style="display: inline-block; margin: 0; padding: 10px; background-color: #ecf0f1; font-style: italic; font-size: 1.1em;"><strong><em>Arrogance is a sign of ignorance.</em></strong></blockquote>
+<blockquote class="about-quote"><strong><em>Arrogance is a sign of ignorance.</em></strong></blockquote>
 
 I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I’m blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. Casually, I go by Henry.
 
@@ -39,7 +39,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
   </div>
   <div class="research-card animate-on-scroll delay-1">
     <div class="research-card-header">
-      <span class="research-card-icon">🛡️</span>
+      <span class="research-card-icon">💡</span>
       <h3 class="research-card-title">AI Alignment and Safety</h3>
     </div>
     <div class="research-card-body">
@@ -54,8 +54,6 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
 <!-- <span style="background-color: #ffcccc; padding: 6px 10px; border-radius: 5px; font-weight: bold; color: #900;">
 🔔 I am expected to finish my PhD in May 2026, and I am actively looking for Research Scientist roles in the industry!
 </span> -->
-
-<div style="margin-top: 30px;"></div>
 
 <!-- Education -->
 <div class="education animate-on-scroll">
