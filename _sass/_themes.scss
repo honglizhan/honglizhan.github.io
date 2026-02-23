@@ -3,16 +3,18 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$bg-warm-white};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
+  --global-text-color: #{$text-soft-black};
+  --global-text-color-light: #6b7280;
   --global-theme-color: #{$burnt-orange-color};
   --global-hover-color: #{$burnt-orange-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
+  --global-card-border-color: rgba(0, 0, 0, 0.08);
+  --global-divider-color: #e0e0e0;
 
   .fa-sun {
     display : none;
@@ -35,6 +37,8 @@ html[data-theme='dark'] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
+  --global-card-border-color: rgba(255, 255, 255, 0.1);
+  --global-divider-color: #4a4a4a;
 
   .fa-sun {
     padding-left: 10px;

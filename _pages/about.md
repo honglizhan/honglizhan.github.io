@@ -80,7 +80,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
     </div>
 </div>
 
-<br/>
+<hr class="section-divider">
 
 <!-- Industry Experience -->
 <div class="education animate-on-scroll">

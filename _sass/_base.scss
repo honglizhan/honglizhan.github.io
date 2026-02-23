@@ -2,7 +2,72 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Global touches
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  letter-spacing: -0.011em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+::selection {
+  background: rgba($burnt-orange-color, 0.2);
+  color: inherit;
+}
+
+html[data-theme='dark'] ::selection {
+  background: rgba($cyan-color, 0.25);
+}
+
+:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme='dark'] {
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+}
+
 // Typography
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fraunces', 'Georgia', serif;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
 
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
@@ -10,12 +75,16 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
 
 a, table.table a {
   color: var(--global-theme-color);
+  text-decoration: none;
+  background-image: linear-gradient(var(--global-theme-color), var(--global-theme-color));
+  background-size: 0% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
   &:hover {
     color: var(--global-theme-color);
-    text-decoration: underline;
-  }
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
+    text-decoration: none;
+    background-size: 100% 1px;
   }
 }
 
@@ -54,6 +123,20 @@ blockquote {
   margin-left: 1rem;
   width: 100%;
 
+  img {
+    border-radius: 12px;
+    box-shadow:
+      0 2px 8px rgba(0, 0, 0, 0.08),
+      0 8px 24px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover {
+      transform: scale(1.02);
+      box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.1),
+        0 12px 32px rgba(0, 0, 0, 0.08);
+    }
+  }
+
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -91,9 +174,15 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  border-bottom: 1px solid var(--global-divider-color, $grey-color-light);
+  background-color: rgba(253, 252, 251, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background-color 250ms ease, border-color 250ms ease;
+}
+
+html[data-theme='dark'] .navbar {
+  background-color: rgba(65, 65, 65, 0.85);
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -122,8 +211,24 @@ blockquote {
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    position: relative;
+    background: none;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: var(--global-theme-color);
+      transition: width 0.3s ease, left 0.3s ease;
+    }
     &:hover {
       color: var(--global-hover-color);
+      &::after {
+        width: 100%;
+        left: 0;
+      }
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
@@ -139,11 +244,15 @@ blockquote {
     padding-top: 0;
     font-size: 1.7rem;
     a {
+      background: none;
+      display: inline-block;
+      transition: transform 0.2s ease-in-out;
       i::before {
         color: var(--global-text-color);
-        -webkit-transition: all 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
       }
       &:hover {
+        transform: translateY(-3px);
         i::before {
           color: var(--global-theme-color);
         }
@@ -206,11 +315,15 @@ blockquote {
   .contact-icons {
     font-size: 1.8rem;
     a {
+      display: inline-block;
+      transition: transform 0.2s ease;
+      background: none;
       i::before {
         color: var(--global-text-color);
         -webkit-transition: all 0.2s ease-in-out;
       }
       &:hover {
+        transform: translateY(-3px);
         i::before {
           color: var(--global-theme-color);
         }
@@ -242,10 +355,14 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid $grey-color-light;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  border-top: 1px solid var(--global-divider-color, $grey-color-light);
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 0.9rem;
+  transition: border-color 0.3s ease;
+  a {
+    transition: color 0.3s ease;
+  }
 }
 
 
@@ -374,6 +491,7 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -394,6 +512,16 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: -1px;
+      right: 0;
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(to right, transparent, var(--global-theme-color));
+    }
   }
   ol.bibliography {
     list-style: none;
@@ -449,9 +577,15 @@ footer.sticky-bottom {
           padding-bottom: 0.1rem;
           margin-left: 0rem;
           margin-right: 0rem;
+          background: none;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+          transition: all 0.25s ease;
           &:hover {
-            color: var(--global-theme-color);
+            color: white;
+            background-color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
           }
         }
       }
@@ -547,4 +681,13 @@ html.transition *:after {
       }
     }
   }
+}
+
+// Section dividers
+.section-divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--global-theme-color), transparent);
+  opacity: 0.3;
+  margin: 2rem 0;
 }
