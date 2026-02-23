@@ -16,6 +16,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   animation: fadeIn 0.4s ease-out;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+html[data-theme='dark'] body {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }
 
 @keyframes fadeIn {
@@ -208,6 +214,10 @@ html[data-theme='dark'] .navbar {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    background: linear-gradient(135deg, var(--global-text-color) 0%, var(--global-theme-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -530,6 +540,13 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+      &.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -680,6 +697,35 @@ html.transition *:after {
         }
       }
     }
+  }
+}
+
+// Scroll progress bar
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(to right, var(--global-theme-color), lighten($burnt-orange-color, 15%));
+  z-index: 9999;
+  transition: width 0.05s linear;
+}
+
+html[data-theme='dark'] .scroll-progress {
+  background: linear-gradient(to right, var(--global-theme-color), lighten($cyan-color, 15%));
+}
+
+// Dark mode toggle animation
+.toggle-container {
+  a {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    background: none !important;
+  }
+  a.spin {
+    transform: rotate(360deg);
   }
 }
 

@@ -3,5 +3,7 @@ $(document).ready(function() {
 
     mode_toggle.addEventListener("click", function() {
         toggleTheme(localStorage.getItem("theme"));
+        mode_toggle.classList.add("spin");
+        setTimeout(function() { mode_toggle.classList.remove("spin"); }, 500);
     });
 });
