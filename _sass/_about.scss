@@ -79,6 +79,20 @@ html[data-theme='dark'] .about-quote {
     font-size: 1.6rem;
     line-height: 1;
     flex-shrink: 0;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover .research-card-icon {
+    animation: wiggle 0.5s ease;
+  }
+
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    20% { transform: rotate(-12deg); }
+    40% { transform: rotate(10deg); }
+    60% { transform: rotate(-6deg); }
+    80% { transform: rotate(4deg); }
   }
 
   .research-card-title {
@@ -169,6 +183,10 @@ html[data-theme='dark'] {
     height: auto;
     margin-right: 1.25rem;
     flex-shrink: 0;
+    transition: transform 0.25s ease;
+    &:hover {
+      transform: scale(1.08) translateY(-2px);
+    }
   }
 }
 
