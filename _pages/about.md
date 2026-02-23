@@ -55,6 +55,8 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
 🔔 I am expected to finish my PhD in May 2026, and I am actively looking for Research Scientist roles in the industry!
 </span> -->
 
+<hr class="section-divider">
+
 <!-- Education -->
 <div class="education animate-on-scroll">
   <h2>Education</h2>
@@ -127,3 +129,5 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
   </div>
 
 </div>
+
+<hr class="section-divider">
