@@ -706,7 +706,7 @@ html.transition *:after {
   top: 0;
   left: 0;
   width: 0%;
-  height: 3px;
+  height: 4px;
   background: linear-gradient(to right, var(--global-theme-color), lighten($burnt-orange-color, 15%));
   z-index: 9999;
   transition: width 0.05s linear;
