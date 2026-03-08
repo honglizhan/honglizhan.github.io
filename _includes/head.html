@@ -4,9 +4,9 @@
 
 <title>
 {% if site.title == "blank" %}
-  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} | {{ site.chinese_name }}
+  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} {{ site.chinese_name }}
 {% else %}
-  {{ site.title }} | {{ site.chinese_name }}
+  {{ site.title }}
 {% endif %}
 {% if page.title != "blank" and page.url != "/" %}
   | {{ page.title }}
