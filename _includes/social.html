@@ -17,5 +17,16 @@
 {% if site.gitlab_username %}<a href="https://gitlab.com/{{ site.gitlab_username }}" target="_blank" title="GitLab"><i class="fab fa-gitlab"></i></a>{% endif %}
 {% if site.dblp_url %}<a href="{{ site.dblp_url }}" target="_blank" title="DBLP"><i class="ai ai-dblp"></i></a>{% endif %}
 <div style="display:inline-block;height:25px;width:25px;margin-left:1.5px;">
-    <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=TmKJlDUPul9hB0enjLETw4XdPi96wFo-ZvRBcVkaRNs"></script>
+    <script type="text/javascript">
+    (function() {
+      var src = (window.location.hostname === 'honglizhan-github-io.vercel.app')
+        ? '//clustrmaps.com/globe.js?d=MXSTU0By7ouyuYpVS4YUF_dgE4FnV3ZCHckC-GnvdrQ'
+        : 'https://clustrmaps.com/globe.js?d=TmKJlDUPul9hB0enjLETw4XdPi96wFo-ZvRBcVkaRNs';
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.id = 'clstr_globe';
+      s.src = src;
+      document.currentScript.parentNode.appendChild(s);
+    })();
+    </script>
 </div>
