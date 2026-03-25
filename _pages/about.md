@@ -71,7 +71,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
     <div class="education-title">
       <img class="edu-logo" src="/assets/img/logos/sjtu_logo.svg" alt="SJTU Logo">
       <div>
-        <strong>B.A. in English Linguistics</strong>, Sep 2017 &ndash; June 2021
+        <strong>B.A. in Linguistics</strong>, Sep 2017 &ndash; June 2021
         <br>
         <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>
         <br>
