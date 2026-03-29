@@ -1,8 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<title>
+{% capture rendered_title %}
 {% if site.title == "blank" %}
   {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} {{ site.chinese_name }}
 {% else %}
@@ -11,20 +9,31 @@
 {% if page.title != "blank" and page.url != "/" %}
   | {{ page.title }}
 {% endif %}
+{% endcapture %}
+{% assign rendered_title = rendered_title | strip | replace: '  ', ' ' %}
+{% assign og_title = site.title %}
+{% if page.title != "blank" and page.url != "/" %}
+  {% assign og_title = page.title | append: ' | ' | append: site.title %}
+{% endif %}
+{% assign meta_description = page.meta_description | default: page.description | strip_html | strip_newlines | strip %}
+{% if meta_description == blank %}
+  {% assign meta_description = site.description %}
+{% endif %}
+
+<title>
+{{ rendered_title }}
 </title>
-<meta name="description" content="詹弘立 (Hongli Zhan) | {{ site.description }}">
-<meta name="keywords" content="詹弘立, Hongli Zhan, Henry Zhan, 计算语言学, Computational Linguistics, NLP, 自然语言处理, UT Austin, 德克萨斯大学奥斯汀分校, 上海交通大学, Shanghai Jiao Tong University, 情感智能AI, AI对齐与安全, Ph.D., IBM Research, MBZUAI, IFM">
-<meta name="author" content="詹弘立 (Hongli Zhan)">
+<meta name="description" content="{{ meta_description }}">
 
 <meta name="baidu-site-verification" content="codeva-kMydwbVHEl" />
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
-<meta property="og:site_name" content="{{ site.description }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:type" content="object" />
-<meta property="og:title" content="{{ site.name }}" />
-<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-<meta property="og:description" content="{{ page.title }}" />
+<meta property="og:title" content="{{ og_title }}" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:description" content="{{ meta_description }}" />
 <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image | prepend: site.url }}{%- else -%}{{ site.og_image | prepend: site.url }}{%- endif -%}" />
 {% endif %}
 
@@ -45,16 +54,10 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <!-- JQuery -->
 {% include scripts/jquery.html %}
-
-<!-- Theming-->
-{% if site.enable_darkmode %}
-<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
-{% endif %}
 
 {% if site.enable_google_analytics %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -69,12 +72,3 @@
 {% endif %}
 
 {% include jsonld.html %}
-
-{% if site.enable_panelbear_analytics %}
-<!-- Panelbear Analytics - We respect your privacy -->
-<script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
-<script>
-    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
-    panelbear('config', { site: '{{site.panelbear_analytics}}' });
-</script>
-{% endif %}

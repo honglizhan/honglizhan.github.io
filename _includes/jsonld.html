@@ -1,12 +1,16 @@
+{% capture full_name %}
+  {{ site.first_name }}{% if site.middle_name and site.middle_name != blank %} {{ site.middle_name }}{% endif %} {{ site.last_name }}
+{% endcapture %}
+{% assign full_name = full_name | strip | replace: '  ', ' ' %}
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "{{ site.first_name }} {{ site.last_name }}",
-  "alternateName": "{{ site.chinese_name }}",
-  "url": "{{ site.url }}",
-  "description": "{{ site.description }}"
+  "name": {{ full_name | jsonify }},
+  "alternateName": {{ site.chinese_name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "description": {{ site.description | jsonify }}
 }
 </script>
 
@@ -15,21 +19,24 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "{{ site.first_name }} {{ site.last_name }}",
-  "alternateName": "{{ site.chinese_name }}",
-  "url": "{{ site.url }}",
-  "email": "mailto:{{ site.email }}",
-  "image": "{{ site.url }}/assets/img/prof_pic.jpg",
+  "name": {{ full_name | jsonify }},
+  "alternateName": {{ site.chinese_name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "email": {{ site.email | prepend: 'mailto:' | jsonify }},
+  "image": {{ '/assets/img/prof_pic.jpg' | absolute_url | jsonify }},
   "jobTitle": "Ph.D. Candidate",
   "affiliation": {
     "@type": "Organization",
     "name": "The University of Texas at Austin"
   },
   "sameAs": [
-    {% if site.github_username %}"https://github.com/{{ site.github_username }}"{% endif %}
-    {% if site.twitter_username %},"https://twitter.com/{{ site.twitter_username }}"{% endif %}
-    {% if site.linkedin_username %},"https://www.linkedin.com/in/{{ site.linkedin_username }}"{% endif %}
-    {% if site.scholar_userid %},"https://scholar.google.com/citations?user={{ site.scholar_userid }}"{% endif %}
+    {% assign has_profile = false %}
+    {% if site.github_username %}{{ 'https://github.com/' | append: site.github_username | jsonify }}{% assign has_profile = true %}{% endif %}
+    {% if site.twitter_username %}{% if has_profile %},{% endif %}{{ 'https://x.com/' | append: site.twitter_username | jsonify }}{% assign has_profile = true %}{% endif %}
+    {% if site.linkedin_username %}{% if has_profile %},{% endif %}{{ 'https://www.linkedin.com/in/' | append: site.linkedin_username | jsonify }}{% assign has_profile = true %}{% endif %}
+    {% if site.scholar_userid %}{% if has_profile %},{% endif %}{{ 'https://scholar.google.com/citations?user=' | append: site.scholar_userid | jsonify }}{% assign has_profile = true %}{% endif %}
+    {% if site.orcid_id %}{% if has_profile %},{% endif %}{{ 'https://orcid.org/' | append: site.orcid_id | jsonify }}{% assign has_profile = true %}{% endif %}
+    {% if site.dblp_url %}{% if has_profile %},{% endif %}{{ site.dblp_url | jsonify }}{% endif %}
   ]
 }
 </script>
