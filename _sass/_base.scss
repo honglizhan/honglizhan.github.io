@@ -540,13 +540,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-      opacity: 0;
-      transform: translateY(16px);
-      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-      &.is-visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
