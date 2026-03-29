@@ -16,7 +16,6 @@ icon: ⚆ # the emoji used as the favicon
 url: https://honglizhan.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -46,28 +45,12 @@ og_image: /assets/img/prof_pic_compressed.jpeg # The site-wide (default for all 
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: honglizhan # your GitHub user name
-gitlab_username: # your GitLab user name
-twitter_username: HongliZhan # your Twitter handle
-linkedin_username: hongli-zhan-761291198 # your LinkedIn user name
-scholar_userid: _EAk1jUAAAAJ # your Google Scholar ID
-#semantic_scholar_userid: Hongli-Zhan/2188735751/
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-#work_url: https://liberalarts.utexas.edu/linguistics/gradstudents/hz6974 # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
+github_username: honglizhan
+twitter_username: HongliZhan
+linkedin_username: hongli-zhan-761291198
+scholar_userid: _EAk1jUAAAAJ
 
-contact_note: >
-
-
-google_analytics: G-ZJHD1LL10P  # your google-analytics code
-panelbear_analytics:  # panelbear analytics site ID
+google_analytics: G-ZJHD1LL10P
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -80,10 +63,6 @@ permalink: /CV/
 # Pagination
 pagination:
   enabled: true
-
-# Comments
-disqus_shortname:  # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -139,7 +118,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll/scholar
-  - jekyll-twitter-plugin
   - jekyll-sitemap
   - jemoji
 
@@ -180,14 +158,10 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    true  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            false   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
