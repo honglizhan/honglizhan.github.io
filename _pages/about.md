@@ -23,7 +23,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
 
 <!-- Research Area Cards -->
 <div class="research-cards">
-  <div class="research-card ">
+  <div class="research-card">
     <div class="research-card-header">
       <span class="research-card-icon">🧠</span>
       <h3 class="research-card-title">Emotionally Intelligent AI</h3>
@@ -38,7 +38,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
       <a class="paper-tag" href="https://openreview.net/forum?id=yK8MT91dQY#discussion">COLM 2024</a>
     </div>
   </div>
-  <div class="research-card ">
+  <div class="research-card">
     <div class="research-card-header">
       <span class="research-card-icon">💡</span>
       <h3 class="research-card-title">AI Alignment and Safety</h3>
@@ -57,7 +57,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
 </span> -->
 
 <!-- Education -->
-<div class="education ">
+<div class="education">
   <h2>Education</h2>
     <div class="education-title">
       <img class="edu-logo" src="/assets/img/logos/ut_logo.svg" alt="UT Austin Logo">
@@ -84,7 +84,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
 <hr class="section-divider">
 
 <!-- Industry Experience -->
-<div class="education ">
+<div class="education">
   <h2>Industry Experience</h2>
 
   <!-- Part-Time @IFM -->
