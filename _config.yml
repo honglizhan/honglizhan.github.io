@@ -56,8 +56,6 @@ google_analytics: G-ZJHD1LL10P
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: CV  # your blog must have a name for it to show up in the nav bar
-blog_description:
 permalink: /CV/
 
 # Pagination
@@ -113,7 +111,6 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-feed
   - jekyll-paginate-v2

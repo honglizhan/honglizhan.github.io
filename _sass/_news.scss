@@ -21,9 +21,6 @@ html[data-theme='dark'] #news-box {
   border-color: rgba(255, 255, 255, 0.08);
 }
 
-.news-item {
-  height: 2.5em;
-}
 
 .news-pagination {
   margin-top: 15px;
@@ -53,7 +50,7 @@ html[data-theme='dark'] #news-box {
   }
 
   #prev-btn {
-    background-color: #7a7f8f;
+    background-color: var(--global-theme-color);
   }
 
   #next-btn {

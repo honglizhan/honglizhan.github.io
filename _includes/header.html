@@ -19,17 +19,6 @@
               {% endif %}
             </a>
           </li>
-          {% if site.CV_name %}
-          <!-- CV -->
-          <li class="nav-item {% if page.url contains 'CV' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/CV/' | relative_url }}">
-              CV
-              {% if page.title == "CV" %}
-              <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
-          {% endif %}
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "nav_order" %}
           {% for p in sorted_pages %}
