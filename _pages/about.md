@@ -19,7 +19,9 @@ nav_order: 1
 
 <blockquote class="about-quote"><strong><em>Arrogance is a sign of ignorance.</em></strong></blockquote>
 
-I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I’m blessed to be advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. Casually, I go by Henry.
+I received my Ph.D. from <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I was advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. My dissertation, <em><a href="/news/2026-04-02-PhD_defense/">Towards Emotionally-Intelligent AI Systems</a></em>, was defended with committee members <a href="https://desmond-ong.github.io/">Desmond C. Ong</a>, <a href="https://liberalarts.utexas.edu/linguistics/faculty/dib97">David I. Beaver</a>, and <a href="https://mahowak.github.io/">Kyle Mahowald</a>.
+
+Casually, I go by Henry.
 
 <!-- Research Area Cards -->
 <div class="research-cards">
@@ -62,7 +64,7 @@ I am a Ph.D. candidate in Computational Linguistics at <a href="https://www.utex
     <div class="education-title">
       <img class="edu-logo" src="/assets/img/logos/ut_logo.svg" alt="UT Austin Logo">
       <div>
-        <strong>Ph.D. in Computational Linguistics</strong>, Aug 2021 &ndash; Present
+        <strong>Ph.D. in Computational Linguistics</strong>, Aug 2021 &ndash; April 2026
         <br>
         <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
         <br>

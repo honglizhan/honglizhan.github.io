@@ -11,6 +11,6 @@ Photo taken at the Shanghai Jiao Tong University commencement ceremony for under
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sjtu_commencement.jpg" data-zoomable>
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sjtu_commencement.jpg" alt="SJTU commencement ceremony, class of 2021" data-zoomable>
     </div>
 </div>
