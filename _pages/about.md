@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 description: honglizhan@utexas.edu
+meta_description: Hongli Zhan | Ph.D. in Computational Linguistics | UT Austin
 
 profile:
   align: right
@@ -78,7 +79,7 @@ Casually, I go by Henry.
         <br>
         <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>
         <br>
-        &#8259; Awards: <a href="https://sfl.sjtu.edu.cn/Data/View/5045">Outstanding Undergraduate</a>; Outstanding Undergraduate Thesis Award
+        &#8259; Awards: Outstanding Undergraduate; Outstanding Undergraduate Thesis Award
       </div>
     </div>
 </div>
