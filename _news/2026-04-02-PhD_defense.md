@@ -11,7 +11,21 @@ The best thing was having an advisor who believed in me before I believed in mys
 
 Grateful to my committee: [Desmond C. Ong](https://desmond-ong.github.io/), [David I. Beaver](https://liberalarts.utexas.edu/linguistics/faculty/dib97), and [Kyle Mahowald](https://mahowak.github.io/), for pushing my work in directions I couldn't see on my own. Many, many thanks to my labmates, friends, and family.
 
-Here are my [slides](/assets/ut_austin_phd_papers/%282026-04-02%29%20dissertation_defense.pptx).
+Here are my slides:
+
+<div style="position: relative; width: 100%; padding-top: 56.25%; margin: 1rem 0;">
+  <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/honglizhan/honglizhan.github.io/master/assets/ut_austin_phd_papers/(2026-04-02)%20dissertation_defense.pptx" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 1px solid #ddd; border-radius: 4px;" allowfullscreen></iframe>
+</div>
+
+<p style="text-align: center; margin-top: 0.5rem;">
+  <a href="/assets/ut_austin_phd_papers/%282026-04-02%29%20dissertation_defense.pptx">Download slides (PPTX)</a>
+</p>
+
+And here is the full defense presentation:
+
+<video controls preload="metadata" style="width: 100%; border-radius: 4px; margin: 1rem 0;">
+  <source src="/assets/ut_austin_phd_papers/Hongli%20PhD%20Defense%20Presentation.mp4" type="video/mp4">
+</video>
 
 ***
 
