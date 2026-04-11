@@ -16,12 +16,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    - name: Remove CV submodule reference
-      run: |
-        git submodule deinit -f CV 2>/dev/null || true
-        git rm -f CV 2>/dev/null || true
-        rm -rf .git/modules/CV 2>/dev/null || true
-        git commit -m "Remove CV submodule for deploy" --allow-empty 2>/dev/null || true
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
