@@ -16,8 +16,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-      with:
-        submodules: true
+    - name: Remove CV submodule reference
+      run: |
+        git submodule deinit -f CV || true
+        git rm -f CV || true
+        rm -rf .git/modules/CV || true
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
