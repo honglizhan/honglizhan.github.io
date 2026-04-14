@@ -18,7 +18,9 @@ nav_order: 1
 
 <blockquote class="about-quote"><strong><em>Arrogance is a sign of ignorance.</em></strong></blockquote>
 
-I received my Ph.D. from <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, where I was advised by Professor <a href="https://jessyli.com/">Junyi Jessy Li</a>. My dissertation, <em><a href="/news/2026-04-02-PhD_defense/">Towards Emotionally-Intelligent AI Systems</a></em>, was defended with committee members <a href="https://desmond-ong.github.io/">Desmond C. Ong</a>, <a href="https://liberalarts.utexas.edu/linguistics/faculty/dib97">David I. Beaver</a>, and <a href="https://mahowak.github.io/">Kyle Mahowald</a>.
+I'm a Research Scientist at the <a href="https://ifm.ai/">Institute of Foundational Models</a> in the Silicon Valley, where I help build and evaluate fully open-source Large Language Models at scale.
+
+I received my Ph.D. from <a href="https://www.utexas.edu/">The University of Texas at Austin</a> in April 2026, where I was blessed to be advised by <a href="https://jessyli.com/">Junyi Jessy Li</a>. My <a href="/news/2026-04-02-PhD_defense/">dissertation</a> focused on building emotionally-intelligent AI systems.
 
 Casually, I go by Henry.
 
@@ -88,6 +90,18 @@ Casually, I go by Henry.
 <div class="education">
   <h2>Industry Experience</h2>
 
+  <!-- Full-Time @IFM -->
+  <div class="education-title">
+    <img class="edu-logo" src="/assets/img/logos/ifm_logo.svg" alt="IFM Logo">
+    <div>
+      <strong>Research Scientist</strong>, June 2026 &ndash; Present
+      <br>
+      <a href="https://ifm.ai/">IFM MBZUAI Silicon Valley Lab</a>, Sunnyvale, CA
+      <br>
+      &#8259; Building and evaluating LLMs
+    </div>
+  </div>
+
   <!-- Part-Time @IFM -->
   <div class="education-title">
     <img class="edu-logo" src="/assets/img/logos/ifm_logo.svg" alt="IFM Logo">
@@ -98,7 +112,7 @@ Casually, I go by Henry.
       <br>
       &#8259; Host: Dr. <a href="https://rupeshks.cc/">Rupesh Kumar Srivastava</a>
       <br>
-      &#8259; LLM post-training & agents
+      &#8259; Building and evaluating LLMs
     </div>
   </div>
 
