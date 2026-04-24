@@ -12,7 +12,7 @@ function toggleMoreAuthors(element, hideText, showText) {
 }
 
 function copyBibtex(button) {
-  var bibtexBlock = $(button).closest('.col-sm-8').find('.bibtex.hidden');
+  var bibtexBlock = $(button).closest('.col-sm-8, .dissertation-content').find('.bibtex.hidden');
   var text = bibtexBlock.find('pre').text().trim();
   navigator.clipboard.writeText(text).then(function() {
     var original = button.textContent;

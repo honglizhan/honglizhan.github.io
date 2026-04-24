@@ -12,6 +12,7 @@ profile:
 selected_papers: true
 selected_patents: true
 news: true # includes a list of news items
+phd_dissertation: true
 social: true  # includes social icons at the bottom of the page
 nav_order: 1
 ---

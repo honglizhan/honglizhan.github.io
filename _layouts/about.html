@@ -42,6 +42,10 @@ layout: default
     {% include news.html %}
     {% endif %}
 
+    {% if page.phd_dissertation %}
+    {% include phd_dissertation.html %}
+    {% endif %}
+
     {% if page.selected_papers %}
     {% include selected_papers.html %}
     {% endif %}
