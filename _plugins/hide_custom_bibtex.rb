@@ -19,6 +19,7 @@ module Jekyll
       pdf
       defense_post
       dissertation_page
+      ut_linguistics_news
     ].freeze
 
     def hideCustomBibtex(input)
