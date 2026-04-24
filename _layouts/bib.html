@@ -159,6 +159,9 @@
           {%- if entry.conference_view %}
           <a href="{{ entry.conference_view }}" class="btn btn-sm z-depth-0" role="button">Conference View</a>
           {%- endif %}
+          {%- if entry.dissertation_page %}
+            <a href="{{ entry.dissertation_page }}" class="btn btn-sm z-depth-0" role="button">Dissertation Page</a>
+          {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>

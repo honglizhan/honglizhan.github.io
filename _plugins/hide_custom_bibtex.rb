@@ -18,6 +18,7 @@ module Jekyll
       note
       pdf
       defense_post
+      dissertation_page
     ].freeze
 
     def hideCustomBibtex(input)

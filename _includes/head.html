@@ -23,6 +23,13 @@
 <title>{{ rendered_title }}</title>
 <meta name="description" content="{{ meta_description }}">
 
+{% if page.scholar_meta %}
+<!-- Google Scholar metadata -->
+{% for meta in page.scholar_meta %}
+<meta name="{{ meta.name }}" content="{{ meta.content | escape }}">
+{% endfor %}
+{% endif %}
+
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
 <meta property="og:site_name" content="{{ site.title }}" />
