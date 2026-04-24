@@ -20,7 +20,7 @@ nav_order: 1
 
 I'm a Research Scientist at the <a href="https://ifm.ai/">Institute of Foundational Models</a> in the Silicon Valley, where I help build and evaluate fully open-source Large Language Models at scale.
 
-I received my Ph.D. from <a href="https://www.utexas.edu/">The University of Texas at Austin</a> in April 2026, where I was blessed to be advised by <a href="https://jessyli.com/">Junyi Jessy Li</a>. My <a href="/news/2026-04-02-PhD_defense/">dissertation</a> focused on building emotionally-intelligent AI systems.
+I received my Ph.D. from <a href="https://www.utexas.edu/">The University of Texas at Austin</a> in April 2026, where I was blessed to be advised by <a href="https://jessyli.com/">Junyi Jessy Li</a>. My Ph.D. dissertation, <a href="/assets/ut_austin_phd_papers/Zhan%202026%20PhD%20Dissertation.pdf"><em>Towards Emotionally-Intelligent AI Systems</em></a>, studies how language technologies can understand, reason about, and support human emotions. I also shared my defense slides and recording in this <a href="/news/2026-04-02-PhD_defense/">defense post</a>.
 
 Casually, I go by Henry.
 
