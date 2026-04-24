@@ -168,6 +168,9 @@
             <a href="{{ entry.pdf | prepend: '/assets/my_papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.defense_post %}
+            <a href="{{ entry.defense_post }}" class="btn btn-sm z-depth-0" role="button">Defense Post</a>
+          {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
             <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>

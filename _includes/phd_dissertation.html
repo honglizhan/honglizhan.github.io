@@ -1,29 +1,4 @@
-<div class="phd-dissertation">
+<div class="publications phd-dissertation">
   <h2>Ph.D. Dissertation</h2>
-  <div class="dissertation-card">
-    <div class="dissertation-badge">Ph.D.</div>
-    <div class="dissertation-content">
-      <h3 class="dissertation-title">Towards Emotionally-Intelligent AI Systems</h3>
-      <div class="dissertation-meta">Ph.D. dissertation, The University of Texas at Austin, 2026.</div>
-      <div class="dissertation-summary">
-        A dissertation on building emotionally intelligent AI systems that can understand, reason about, and support human emotions.
-      </div>
-      <div class="links">
-        <a href="/assets/ut_austin_phd_papers/Zhan%202026%20PhD%20Dissertation.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        <a href="/news/2026-04-02-PhD_defense/" class="btn btn-sm z-depth-0" role="button">Defense Post</a>
-        <a href="#" class="bibtex btn btn-sm z-depth-0" role="button" onclick="event.preventDefault()">Bib</a>
-        <a href="#" class="copy-bibtex btn btn-sm z-depth-0" role="button" onclick="event.preventDefault(); copyBibtex(this)">Copy Bib</a>
-      </div>
-      <div class="bibtex hidden">
-{% highlight bibtex %}@phdthesis{zhan2026dissertation,
-  author = {Zhan, Hongli},
-  title = {Towards Emotionally-Intelligent AI Systems},
-  school = {The University of Texas at Austin},
-  year = {2026},
-  type = {Ph.D. dissertation},
-  month = may,
-}{% endhighlight %}
-      </div>
-    </div>
-  </div>
+  {% bibliography -f papers -q @phdthesis %}
 </div>

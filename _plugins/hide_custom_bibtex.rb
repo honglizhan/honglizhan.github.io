@@ -17,6 +17,7 @@ module Jekyll
       expo_talk_slides
       note
       pdf
+      defense_post
     ].freeze
 
     def hideCustomBibtex(input)
