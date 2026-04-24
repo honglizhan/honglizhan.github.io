@@ -115,12 +115,22 @@ html[data-theme='dark'] {
 
 // Dissertation landing page abstract header
 .dissertation-abstract-meta {
-  margin: 0.75rem 0 1rem;
-  font-size: 1rem;
-  line-height: 1.6;
+  margin: 0.75rem 0 1.5rem;
+  text-align: center;
+  line-height: 1.55;
 
   .dissertation-abstract-title {
+    font-size: 1.25rem;
     font-weight: 700;
+  }
+
+  .dissertation-abstract-author {
+    font-size: 1rem;
+  }
+
+  .dissertation-abstract-supervisor {
+    color: var(--global-text-color-light, $grey-color);
+    font-size: 0.95rem;
   }
 }
 

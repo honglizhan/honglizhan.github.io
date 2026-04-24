@@ -26,8 +26,8 @@ scholar_meta:
 
 <div class="dissertation-abstract-meta">
   <div class="dissertation-abstract-title">Towards Emotionally-Intelligent AI Systems</div>
-  <div>Hongli Zhan</div>
-  <div>Supervisor: Junyi Jessy Li</div>
+  <div class="dissertation-abstract-author">Hongli Zhan</div>
+  <div class="dissertation-abstract-supervisor">Supervisor: Junyi Jessy Li</div>
 </div>
 
 Emotions form a crucial aspect of people’s well-being. As Artificial Intelligence (AI) and Large Language Models (LLM) continue to excel across a diverse range of tasks, it becomes increasingly important to endow these systems with emotional intelligence and to apply this capability in ways that meaningfully promote human well-being. In this dissertation, my goal is to examine the extent to which language models comprehend human emotions and explore how their emotional understanding can be leveraged to benefit people — for instance, by fostering long-term emotional well-being and delivering empathic responses. We develop the dissertation into the following three parts:
