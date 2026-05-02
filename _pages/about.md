@@ -92,6 +92,7 @@ Casually, I go by Henry.
   <h2>Industry Experience</h2>
 
   <!-- Full-Time @IFM -->
+  <!--
   <div class="education-title">
     <img class="edu-logo" src="/assets/img/logos/ifm_logo.svg" alt="IFM Logo">
     <div>
@@ -102,6 +103,8 @@ Casually, I go by Henry.
       &#8259; Building and evaluating LLMs
     </div>
   </div>
+  -->
+
 
   <!-- Part-Time @IFM -->
   <div class="education-title">
