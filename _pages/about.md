@@ -8,6 +8,8 @@ meta_description: Hongli Zhan | Ph.D. in Computational Linguistics | UT Austin
 profile:
   align: right
   image: prof_pic.jpg
+  address: >
+    <p>Photo by <a href="https://liuyixuan820.github.io/">Yixuan Liu</a></p>
 
 selected_papers: true
 selected_patents: true
