@@ -7,7 +7,14 @@ meta_description: Hongli Zhan | Ph.D. in Computational Linguistics | UT Austin
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic_1.jpg
+  images:
+    - path: prof_pic_1.jpg
+      alt: Hongli Zhan in doctoral regalia under trees
+      position: 68% center
+    - path: prof_pic_2.jpeg
+      alt: Hongli Zhan in doctoral regalia near campus columns
+      position: 78% center
   address: >
     <p>Photo by <a href="https://liuyixuan820.github.io/">Yixuan Liu</a></p>
 

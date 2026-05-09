@@ -15,7 +15,32 @@ layout: default
   <article>
     {% if page.profile %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-      {% if page.profile.image %}
+      {% if page.profile.images and page.profile.images.size > 1 %}
+        <div class="profile-carousel" data-profile-carousel aria-label="Profile photos">
+          <div class="profile-carousel-track" tabindex="0">
+            {% for image in page.profile.images %}
+              <img
+                class="img-fluid z-depth-1 rounded profile-carousel-image"
+                src="{{ image.path | prepend: '/assets/img/' | relative_url }}"
+                alt="{{ image.alt | default: site.title }}"
+                loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+                style="{% if image.position %}object-position: {{ image.position }};{% endif %}">
+            {% endfor %}
+          </div>
+          <button class="profile-carousel-control profile-carousel-prev" type="button" data-carousel-prev aria-label="Previous profile photo">‹</button>
+          <button class="profile-carousel-control profile-carousel-next" type="button" data-carousel-next aria-label="Next profile photo">›</button>
+          <div class="profile-carousel-dots" aria-label="Choose profile photo">
+            {% for image in page.profile.images %}
+              <button
+                class="profile-carousel-dot{% if forloop.first %} active{% endif %}"
+                type="button"
+                data-carousel-dot="{{ forloop.index0 }}"
+                aria-label="Show profile photo {{ forloop.index }}"
+                aria-current="{% if forloop.first %}true{% else %}false{% endif %}"></button>
+            {% endfor %}
+          </div>
+        </div>
+      {% elsif page.profile.image %}
         <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ site.title }}">
       {% endif %}
       {% if page.profile.address %}
