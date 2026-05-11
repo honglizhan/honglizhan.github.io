@@ -12,7 +12,7 @@ profile:
     - path: prof_pic_1.jpg
       alt: Hongli Zhan in doctoral regalia under trees
       position: 68% center
-    - path: prof_pic_2.jpeg
+    - path: prof_pic_2.jpg
       alt: Hongli Zhan in doctoral regalia near campus columns
       position: 78% center
   address: >
