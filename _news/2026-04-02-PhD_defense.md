@@ -46,7 +46,7 @@ And here is the full defense presentation:
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/phd_defense_photos/IMG_0272.jpeg" alt="Hook 'em Horns with committee members" data-zoomable>
     </div>
 </div>
-<p style="text-align: center; margin-top: 0.5rem; color: gray; font-size: 0.9em;">Photo by <a href="https://yatingwu.info">Yating Wu</a></p>
+<p style="text-align: center; margin-top: 0.5rem; color: gray; font-size: 0.9em;">Photos by <a href="https://yatingwu.info">Yating Wu</a></p>
 
 ***
 
