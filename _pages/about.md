@@ -16,7 +16,7 @@ profile:
       alt: Hongli Zhan in doctoral regalia near campus columns
       position: 78% center
   address: >
-    <p>Photo by <a href="https://liuyixuan820.github.io/">Yixuan Liu</a></p>
+    <p>Photos by <a href="https://liuyixuan820.github.io/">Yixuan Liu</a></p>
 
 selected_papers: true
 selected_patents: true
