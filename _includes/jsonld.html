@@ -24,10 +24,11 @@
   "url": {{ site.url | jsonify }},
   "email": {{ site.email | prepend: 'mailto:' | jsonify }},
   "image": {{ '/assets/img/prof_pic_1.jpg' | absolute_url | jsonify }},
-  "jobTitle": "Research Scientist",
+  "jobTitle": "Ph.D. in Computational Linguistics",
   "affiliation": {
     "@type": "Organization",
-    "name": "The University of Texas at Austin"
+    "name": "The University of Texas at Austin",
+    "url": "https://www.utexas.edu/"
   },
   "sameAs": [
     {% assign has_profile = false %}

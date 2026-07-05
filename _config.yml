@@ -7,7 +7,7 @@ first_name: Hongli
 middle_name:
 last_name: Zhan
 chinese_name: 詹弘立
-email: HongliZhan@utexas.edu
+email: honglizhan@utexas.edu
 description: Hongli Zhan, Ph.D. | Computational Linguistics | UT Austin
 footer_text: Powered by Jekyll with al-folio theme.
 
@@ -56,7 +56,7 @@ google_analytics: G-ZJHD1LL10P
 # Blog
 # -----------------------------------------------------------------------------
 
-permalink: /CV/
+permalink: /:categories/:title/
 
 # Pagination
 pagination:
@@ -76,7 +76,6 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5
 
 # -----------------------------------------------------------------------------
@@ -155,7 +154,7 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    true  # enables google analytics
-enable_mansory:             true   # enables automatic project cards arangement
+enable_mansory:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts

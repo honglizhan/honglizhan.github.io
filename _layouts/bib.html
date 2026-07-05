@@ -163,9 +163,10 @@
             <a href="{{ entry.dissertation_page }}" class="btn btn-sm z-depth-0" role="button">Dissertation Page</a>
           {%- endif %}
           {%- if entry.pdf %}
+            {% assign pdf_first_char = entry.pdf | slice: 0 %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            {%- elsif entry.pdf | slice: 0 == '/' -%}
+            {%- elsif pdf_first_char == '/' -%}
             <a href="{{ entry.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- else -%}
             <a href="{{ entry.pdf | prepend: '/assets/my_papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>

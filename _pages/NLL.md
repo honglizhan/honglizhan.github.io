@@ -6,8 +6,6 @@ description: UT Austin Natural Language Learning Reading Group (see past meeting
 nav: false
 ---
 
-<!--, proposed by Professor <a href="https://www.cs.utexas.edu/~mooney/">Raymond Mooney</a>-->
-
 <strong>I am no longer hosting NLL! Please contact Jierui Li, the current organizer of the reading group, for more information.</strong>
 
 I had been organizing the UT Austin Natural Language Learning Reading Group from 2023 to 2024. The schedule of our past meetings can be found here.
@@ -106,8 +104,3 @@ I had been organizing the UT Austin Natural Language Learning Reading Group from
 </details>
 
 
-<style>
-details[open] {
-  display: block;
-}
-</style>

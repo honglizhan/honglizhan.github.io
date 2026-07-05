@@ -65,17 +65,13 @@ Casually, I go by Henry.
   </div>
 </div>
 
-<!-- <span style="background-color: #ffcccc; padding: 6px 10px; border-radius: 5px; font-weight: bold; color: #900;">
-🔔 I am expected to finish my PhD in May 2026, and I am actively looking for Research Scientist roles in the industry!
-</span> -->
-
 <!-- Education -->
 <div class="education">
   <h2>Education</h2>
     <div class="education-title">
       <img class="edu-logo" src="/assets/img/logos/ut_logo.svg" alt="UT Austin Logo">
       <div>
-        <strong>Ph.D. in Computational Linguistics</strong>, Aug 2021 &ndash; April 2026
+        <strong>Ph.D. in Computational Linguistics</strong>, Aug 2021 &ndash; Apr 2026
         <br>
         <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
         <br>
@@ -85,7 +81,7 @@ Casually, I go by Henry.
     <div class="education-title">
       <img class="edu-logo" src="/assets/img/logos/sjtu_logo.svg" alt="SJTU Logo">
       <div>
-        <strong>B.A. in Linguistics</strong>, Sep 2017 &ndash; June 2021
+        <strong>B.A. in Linguistics</strong>, Sep 2017 &ndash; Jun 2021
         <br>
         <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>
         <br>
