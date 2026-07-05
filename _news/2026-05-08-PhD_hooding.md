@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I was hooded!
+title: I was officially hooded at UT Austin's Spring 2026 Commencement!
 date: 2026-05-08 12:00:00-0500
 inline: false
 ---
