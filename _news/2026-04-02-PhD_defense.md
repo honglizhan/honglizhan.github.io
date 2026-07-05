@@ -30,6 +30,8 @@ And here is the full defense presentation:
 
 ***
 
+#### Photos by [Yating Wu](https://yatingwu.info)
+
 <div class="row mt-3" style="align-items: center;">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/phd_defense_photos/IMG_6555.jpeg" alt="With advisor Junyi Jessy Li at the Department of Linguistics" data-zoomable>
@@ -46,7 +48,6 @@ And here is the full defense presentation:
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/phd_defense_photos/IMG_0272.jpeg" alt="Hook 'em Horns with committee members" data-zoomable>
     </div>
 </div>
-#### Photos by [Yating Wu](https://yatingwu.info)
 
 ***
 
