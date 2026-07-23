@@ -26,9 +26,21 @@
     {% include scripts/mansory.html %}
     {% include scripts/misc.html %}
 
-    <div style="width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none;">
-      <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=mxIKLPa2szScMHgn1Idf08r09R_zEhFCMEm4Lm4Q5rE"></script>
+    <!-- globe.js sends its call-home beacon immediately after injecting the widget.
+         Keep the parent measurable because the script forwards its width with the beacon. -->
+    <div class="mapmyvisitors-tracker" aria-hidden="true">
+      <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=nuvzYNrORqAKjMSEskF0tOsLT_GBVNLlK-0Zz8etIHw"></script>
     </div>
+    <style>
+      .mapmyvisitors-tracker {
+        position: absolute;
+        width: 200px;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        pointer-events: none;
+      }
+    </style>
 
   </body>
 
