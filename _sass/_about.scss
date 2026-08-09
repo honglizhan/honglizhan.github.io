@@ -14,6 +14,19 @@
   font-size: 1.1em;
 }
 
+.about-quote footer {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.8em;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+}
+
+.about-quote footer cite {
+  font-style: italic;
+}
+
 html[data-theme='dark'] .about-quote {
   background: rgba(38, 152, 186, 0.06);
 }
