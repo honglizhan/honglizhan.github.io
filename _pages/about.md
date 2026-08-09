@@ -28,7 +28,7 @@ nav_order: 1
 
 <!-- <blockquote class="about-quote"><strong><em>Arrogance is a sign of ignorance.</em></strong></blockquote> -->
 
-<blockquote class="about-quote"><strong><em>Asia, Europe are corners of the universe: all the sea a drop in the universe; Athos a little clod of the universe: all the present time is a point in eternity.</em></strong><footer>— Marcus Aurelius, <cite>Meditations</cite> VI.36 (trans. George Long)</footer></blockquote>
+<blockquote class="about-quote"><em>Asia, Europe are corners of the universe: all the sea a drop in the universe; Athos a little clod of the universe: all the present time is a point in eternity.</em><footer>— Marcus Aurelius, <cite>Meditations</cite> VI.36</footer></blockquote>
 
 I'm a Research Scientist at the <a href="https://ifm.ai/">Institute of Foundational Models</a> in the Silicon Valley, where I help build and evaluate fully open-source Large Language Models at scale.
 

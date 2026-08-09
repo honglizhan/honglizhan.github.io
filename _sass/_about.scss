@@ -10,17 +10,28 @@
   border-left: 3px solid var(--global-theme-color);
   background: rgba(191, 87, 0, 0.04);
   border-radius: 0 6px 6px 0;
-  font-style: italic;
-  font-size: 1.1em;
+  font-style: normal;
+  font-size: 1.05em;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+// Fit beside the floated profile photo (30% wide) instead of dropping below it
+@media (min-width: 576px) {
+  .about-quote {
+    max-width: 64%;
+  }
 }
 
 .about-quote footer {
   display: block;
-  margin-top: 8px;
-  font-size: 0.8em;
+  margin-top: 6px;
+  font-size: 0.78em;
   font-style: normal;
   font-weight: normal;
+  letter-spacing: 0.02em;
   text-align: right;
+  color: var(--global-text-color-light);
 }
 
 .about-quote footer cite {
