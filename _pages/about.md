@@ -34,9 +34,11 @@ I'm a Research Scientist at the <a href="https://ifm.ai/">Institute of Foundatio
 
 I received my Ph.D. from <a href="https://www.utexas.edu/">The University of Texas at Austin</a> in April 2026, where I was blessed to be advised by Prof. <a href="https://jessyli.com/">Junyi Jessy Li</a>. My Ph.D. dissertation, <a href="/assets/ut_austin_phd_papers/Zhan%202026%20PhD%20Dissertation.pdf"><em>Towards Emotionally-Intelligent AI Systems</em></a>, studies how language technologies can understand, reason about, and support human emotions. Some of my favorite memories from this chapter are in my <a href="/news/2026-04-02-PhD_defense/">defense post</a>, including the full presentation, slides, and photos with my advisor from the defense and hooding.
 
+<!-- My research focuses on the evaluation of large language models. I’m also interested in alignment and safety: work done during my internships at <a href="https://research.ibm.com/">IBM Research</a> contributed to the <a href="https://huggingface.co/ibm-granite/granite-guardian-3.2-5b-lora-harm-correction">Granite Guardian</a> and <a href="https://www.ibm.com/granite">Granite</a> models. -->
+
 Casually, I go by Henry.
 
-<!-- Research Area Cards -->
+<!-- Research Area Cards
 <div class="research">
   <h2>Research</h2>
 </div>
@@ -68,7 +70,7 @@ Casually, I go by Henry.
       <a class="paper-tag" href="https://openreview.net/forum?id=klw8Ko4ENe&noteId=ROlliZ5Vy2">ICML 2025</a>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Education -->
 <div class="education">
