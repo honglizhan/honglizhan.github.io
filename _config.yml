@@ -103,6 +103,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - CLAUDE.md
 keep_files:
   - CNAME
   - .nojekyll
